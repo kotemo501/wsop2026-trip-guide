@@ -29,6 +29,9 @@
 
 - [ ] 必ず行きたい観光を1つ選ぶ
 - [ ] できれば行きたい観光を2つ選ぶ
+- [ ] 6/25(木)にGrand Canyonツアーを入れるか決める
+- [ ] Grand Canyonに行く場合、ヘリ/West Rimバス/South Rimバスのどれにするか決める
+- [ ] Grand Canyonツアーの予算上限を決める
 - [ ] 予約が必要なショー/レストランを入れるか決める
 - [ ] 最終日の荷物管理を決める
 
@@ -40,6 +43,8 @@
 | 6/23 Daily敗退後キャッシュの上限を決める | `decision`, `budget`, `poker` |
 | 6/24 Tag Team登録・集合ルール確認 | `todo`, `poker` |
 | 6/25を観光日にするか | `decision`, `tourism` |
+| 6/25 Grand Canyonツアーを入れるか決める | `decision`, `tourism`, `budget` |
+| Grand Canyon予約前チェック | `todo`, `booking`, `tourism` |
 | キャッシュゲーム撤退ルール | `decision`, `poker`, `budget` |
 | ESTA/渡航準備チェック | `todo`, `booking` |
 | 食事予約候補を決める | `decision`, `tourism` |

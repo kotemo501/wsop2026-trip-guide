@@ -48,6 +48,11 @@
 - AREA15 official: https://area15.com/
 - Travel Nevada Fremont Street Experience: https://travelnevada.com/travel-guides/fremont-street-experience/
 - Fountains of Bellagio official: https://bellagio.mgmresorts.com/en/entertainment/fountains-of-bellagio.html
+- Grand Canyon West FAQ: https://grandcanyonwest.com/plan-your-visit/faqs/
+- Grand Canyon Tour Company West Rim Bus: https://grandcanyontourcompany.com/grand-canyon/west-rim-bus/
+- Papillon Las Vegas helicopter tour prices: https://www.papillon.com/las-vegas-tours/helicopter-tours-from-las-vegas/price/
+- Maverick Helicopters Grand Canyon tours: https://www.flymaverick.com/grand-canyon
+- Las Vegas Direct South Rim Bus Tour: https://www.lasvegasdirect.com/grand-canyon-south-rim-bus-tour/
 
 確認した主な内容:
 
@@ -55,6 +60,9 @@
 - AREA15は複数の体験型アトラクション、イベント、飲食を含む施設です。
 - Fremont Street Experienceはダウンタウン側の観光エリアで、ストリップ外のため移動手段の検討が必要です。
 - Bellagio Fountainsはホースシュー周辺から入れやすい無料観光候補です。
+- Grand Canyon Westはラスベガスから車で約2時間、ヘリで約30分のWest Rim候補です。West RimはGrand Canyon National ParkではなくHualapai Tribeの運営エリアです。
+- West Rimバスは`$105`前後から、約11.5時間のツアー例があります。South Rimバスは`$107`前後から、約14.5時間のツアー例があります。
+- Las Vegas発のGrand Canyonヘリは、Papillonで空中観光`$439`前後、谷底着陸付き`$519`前後からの例があります。
 
 ## 周辺ポーカーシリーズ
 

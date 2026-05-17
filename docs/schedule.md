@@ -92,19 +92,19 @@
 おすすめ方針:
 
 - 前日までにトーナメントを打てていれば、ここを観光・休憩日にする。
-- まだWSOPを打てていなければ、Daily Deepstackやキャッシュを優先。Mystery Millionsは帰国便固定のため除外。
-- 6/25は観光日にもポーカー予備日にもできるので、`$250`か`$400`のDaily Deepstackが差し替えやすい。
+- 6/25は[Grand Canyonツアー](grand-canyon.md)を入れる候補日。入れる場合は夜のポーカー/ショーは基本なし。
+- Grand Canyonを見送る場合は、Sphere外観、Fremont、AREA15、ショー、Daily Deepstack、キャッシュを比較する。
 
 プラン候補:
 
 | プラン | 内容 | 向いている人 |
 | --- | --- | --- |
 | A: 観光メイン | Sphere外観、Fremont、AREA15など | 旅の満足度を上げたい |
-| B: WSOP予備日 | Daily Deepstack or キャッシュ | 帰国便リスクを避けて打ちたい |
-| C: `$400`本命 | 16:00 Daily Deepstack | 観光を短めにして打ちたい |
-| D: キャッシュ集中 | 午後から2-3時間のセッション | トーナメントより自由度重視 |
-| E: 休息日 | 昼まで休み、夜だけ行動 | 連日稼働を避けたい |
-| F: 遠出 | Red Rock / Hoover Dam / Grand Canyon系 | 予約・移動を許容できる |
+| B: Grand Canyonヘリ | West Rimヘリ、夜は軽め | 体験にお金をかけたい |
+| C: Grand Canyonバス | West Rim or South Rimバス、夜は休息 | 安く遠出したい |
+| D: WSOP予備日 | Daily Deepstack or キャッシュ | 帰国便リスクを避けて打ちたい |
+| E: キャッシュ集中 | 午後から2-3時間のセッション | トーナメントより自由度重視 |
+| F: 休息日 | 昼まで休み、夜だけ行動 | 連日稼働を避けたい |
 
 ## 2026-06-26(金) Day 5: フリーロール日
 
