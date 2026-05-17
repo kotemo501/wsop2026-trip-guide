@@ -56,6 +56,7 @@
 | 6/27 Sphere公演のチケット・移動確認 | `todo`, `booking`, `tourism` |
 | 6/27に見に行く他カジノを決める | `decision`, `tourism` |
 | 節約食の買い出しと設備確認 | `todo`, `budget`, `food` |
+| 総予算の上限を決める | `decision`, `budget` |
 | キャッシュゲーム撤退ルール | `decision`, `poker`, `budget` |
 | ESTA/渡航準備チェック | `todo`, `booking` |
 | Sphere以外のショー/食事予約候補を決める | `decision`, `tourism` |
@@ -73,3 +74,5 @@
 | 観光 |  |  | ショー/ツアー含む |
 | 交通 |  |  | Uber/Lyft等 |
 | お土産 |  |  |  |
+| 現地予算合計 |  |  | `$1 = 160円`で円換算 |
+| 総予算 |  |  | ツアー代 + 現地予算 |
