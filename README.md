@@ -38,6 +38,7 @@
 
 ## ファイル構成
 
+- [docs/planning-board.md](docs/planning-board.md): 友人と画面を見ながら決める相談ページ
 - [docs/schedule.md](docs/schedule.md): 日別スケジュール案
 - [docs/options.md](docs/options.md): ポーカー・観光・食事・休憩の候補リスト
 - [docs/poker-plan.md](docs/poker-plan.md): WSOP、Daily Deepstack、キャッシュゲーム方針
