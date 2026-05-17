@@ -1,0 +1,9 @@
+pages:
+  stage: deploy
+  script:
+    - echo "Publishing WSOP 2026 trip guide"
+  artifacts:
+    paths:
+      - public
+  only:
+    - main

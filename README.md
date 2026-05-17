@@ -41,6 +41,7 @@
 
 ## ファイル構成
 
+- [public/index.html](public/index.html): GitLab Pagesで公開する旅のしおり画面
 - [docs/planning-board.md](docs/planning-board.md): 友人と画面を見ながら決める相談ページ
 - [docs/schedule.md](docs/schedule.md): 日別スケジュール案
 - [docs/options.md](docs/options.md): ポーカー・観光・食事・休憩の候補リスト
@@ -54,6 +55,7 @@
 
 ## GitLabでの運用案
 
+- GitLab Pagesはこのリポジトリの`public/`を静的サイトとして公開する想定。HTML/CSS/ブラウザ上のJavaScriptは使えるが、サーバー側の処理やデータベースは標準では動かない。
 - Issue: 「6/24 Tag Teamの登録確認」「観光候補を決める」「1日ごとの予算上限」など、決める単位で立てる。
 - ラベル: `decision`, `poker`, `tourism`, `budget`, `booking`, `todo`
 - Merge Request: 予定を変えるときは `docs/schedule.md` を更新して、理由をMR本文に残す。
