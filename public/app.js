@@ -1,14 +1,3 @@
-const tabs = document.querySelectorAll(".tab");
-const panels = document.querySelectorAll(".tab-panel");
-
-tabs.forEach((tab) => {
-  tab.addEventListener("click", () => {
-    const target = tab.dataset.tab;
-    tabs.forEach((item) => item.classList.toggle("is-active", item === tab));
-    panels.forEach((panel) => panel.classList.toggle("is-active", panel.id === target));
-  });
-});
-
 const taskInputs = document.querySelectorAll("[data-task]");
 
 taskInputs.forEach((input) => {
