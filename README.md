@@ -35,6 +35,7 @@
 ## ファイル構成
 
 - [docs/schedule.md](docs/schedule.md): 日別スケジュール案
+- [docs/options.md](docs/options.md): ポーカー・観光・食事・休憩の候補リスト
 - [docs/poker-plan.md](docs/poker-plan.md): WSOP、Daily Deepstack、キャッシュゲーム方針
 - [docs/tourism-and-food.md](docs/tourism-and-food.md): 観光・食事候補
 - [docs/decisions.md](docs/decisions.md): 友人と決めることリスト
@@ -46,4 +47,3 @@
 - ラベル: `decision`, `poker`, `tourism`, `budget`, `booking`, `todo`
 - Merge Request: 予定を変えるときは `docs/schedule.md` を更新して、理由をMR本文に残す。
 - Milestone: `出発前`, `現地1日目`, `現地中`, `帰国後`
-

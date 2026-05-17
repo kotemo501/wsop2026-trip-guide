@@ -30,10 +30,24 @@
 - 2026-06-26(金) 10:00 Event #63 Mystery Millions Flight D
 - 2026-06-27(土) 10:00 Event #63 Mystery Millions Flight E
 - 2026-06-27(土) 14:00 Event #71 `$2,500 Mixed Big Bet 7-Handed`
+- 2026-06-27(土) 18:00 Event #63 Mystery Millions Flight F
+
+## 観光・ショー候補
+
+- Vegas.com June 2026 shows: https://www.vegas.com/shows/june/
+- AREA15 official: https://area15.com/
+- Travel Nevada Fremont Street Experience: https://travelnevada.com/travel-guides/fremont-street-experience/
+- Fountains of Bellagio official: https://bellagio.mgmresorts.com/en/entertainment/fountains-of-bellagio.html
+
+確認した主な内容:
+
+- 2026年6月のショー候補として、Mystere、KA、Blue Man Group、Shin Lim、Penn & Teller、BattleBotsなどが掲載されています。
+- AREA15は複数の体験型アトラクション、イベント、飲食を含む施設です。
+- Fremont Street Experienceはダウンタウン側の観光エリアで、ストリップ外のため移動手段の検討が必要です。
+- Bellagio Fountainsはホースシュー周辺から入れやすい無料観光候補です。
 
 ## 注意
 
 - チャーター便の発着時刻は最終日程表で変わる可能性があります。
 - WSOPの詳細、登録方法、開始時刻、Late Registration、会場ルールは出発前と現地で再確認してください。
 - Daily Deepstackはツアーページ上で `$100-$300` の案内がありますが、具体的な2026年日別詳細は現地または公式情報で再確認してください。
-
