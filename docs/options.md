@@ -4,6 +4,19 @@
 
 ## ポーカー候補
 
+### トーナメント種別のざっくり説明
+
+| 種別 | どういうものか | 向いている人 |
+| --- | --- | --- |
+| ブレスレットイベント | WSOP公式優勝ブレスレット対象の本戦。参加者が多く、複数日になることが多い | WSOPに出た実感を強く残したい |
+| Tag Team | 2人1組で1つのスタックを交代しながらプレイするNLHイベント | 友人2人で思い出を作りたい |
+| Freezeout | リエントリーなし。一度飛んだら終了 | 予算を固定したい、緊張感を楽しみたい |
+| Mystery Millions | Day 2以降にバウンティ抽選が始まる大規模イベント。高額バウンティが魅力 | 大人数イベントの熱気を味わいたい |
+| Daily Deepstack | WSOP期間中に毎日ある低額サイドイベント。基本はその日で完結しやすい | 安く、気軽にWSOP会場で打ちたい |
+| サテライト | 本戦や高額イベントの参加券を狙う予選 | 小さめの費用で上位イベント参加を狙いたい |
+| キャッシュゲーム | チップを現金相当で持ち、好きなタイミングで着席/離席できる | 時間調整しながら打ちたい |
+| 変則ゲーム | PLO、H.O.R.S.E.、StudなどNLH以外 | 変わった種目も試したい |
+
 | 種類 | 候補 | 日時 | 目安費用 | 拘束 | コメント |
 | --- | --- | --- | ---: | --- | --- |
 | WSOP本戦 | Event #63 Mystery Millions Flight A | 6/23(火) 10:00 | `$1,000` | 重い | Day 2が6/28、Day 3が6/29。帰国便と両立しない |
@@ -15,10 +28,51 @@
 | WSOP本戦 | Event #63 Mystery Millions Flight E | 6/27(土) 10:00 | `$1,000` | 重い | 最終日なので見送り推奨 |
 | WSOP本戦 | Event #63 Mystery Millions Flight F | 6/27(土) 18:00 | `$1,000` | 重い | 空港移動と強く競合。見送り推奨 |
 | ツアー特典 | WSOP公認フリーロール | 6/26(金) 19:00 | 無料 | 中 | ツアー参加なら優先度高 |
-| Daily系 | WSOP Daily Deepstack | 毎日想定 | `$100-$300`程度 | 中 | 2026詳細は現地/公式で再確認 |
+| Daily系 | Daily Deepstack NLH | 13:00中心 | `$250` | 中 | 25,000 chips / 30 min levels。日中の本命候補 |
+| Daily系 | Daily Deepstack NLH | 16:00中心 | `$400` | 中 | 30,000 chips / 20 min levels。質問にあった有力候補 |
+| Daily系 | Daily Deepstack NLH | 20:00中心 | `$200` | 軽-中 | 20,000 chips / 20 min levels。夜に軽く打つ候補 |
+| サテライト | Daily Landmark Satellite | 22:00中心 | `$135` | 軽 | 10,000 chips / 15 min levels。安く遊ぶ候補 |
+| サテライト | Daily / Mystery Millions Landmark Satellite | 12:00-16:00中心 | `$130-$240` | 軽 | 本戦参加券狙い。目的が合うなら候補 |
+| 変則系 | H.O.R.S.E. Deepstack | 6/23(火) 15:00 | `$250` | 中 | NLH以外も遊びたい場合 |
+| 変則系 | PLO Deep Stack | 6/24(水) 15:00 | `$250` | 中 | PLOを試したい場合 |
+| 年齢条件 | Seniors Weekly Deepstack NLH | 6/25(木) 9:00 | `$250` | 中 | 50歳以上向け |
 | キャッシュ | Horseshoe/Paris周辺 | 随時 | 任意 | 軽-中 | ホテル近くで時間調整しやすい |
 | キャッシュ | Bellagio / Aria / Wynnなど | 随時 | 任意 | 中 | 雰囲気重視、移動あり |
 | 観戦 | WSOP会場を歩く | 随時 | 無料 | 軽 | 初日や休憩日に入れやすい |
+
+## 滞在中の低額トーナメント候補
+
+PokerAtlas掲載のWSOP 2026スケジュールをもとにした候補です。現地ではWSOP+や会場掲示で最終確認します。
+
+| 日付 | 時間 | 候補 | Buy-in | メモ |
+| --- | --- | --- | ---: | --- |
+| 6/23(火) | 13:00 | Daily Deepstack NLH | `$250` | 25,000 chips / 30 min levels |
+| 6/23(火) | 15:00 | H.O.R.S.E. Deepstack | `$250` | 変則ゲームを試したい場合 |
+| 6/23(火) | 16:00 | Daily Deepstack NLH | `$400` | 30,000 chips / 20 min levels |
+| 6/23(火) | 20:00 | Daily Deepstack NLH | `$200` | 夜に軽め |
+| 6/24(水) | 13:00 | Daily Deepstack NLH | `$250` | Tag Teamと競合 |
+| 6/24(水) | 15:00 | PLO Deep Stack | `$250` | Tag Team不参加なら候補 |
+| 6/24(水) | 16:00 | Daily Deepstack NLH | `$400` | Tag Team不参加なら候補 |
+| 6/24(水) | 20:00 | Daily Deepstack NLH | `$200` | Tag Team敗退後に軽く打つ候補 |
+| 6/25(木) | 9:00 | Seniors Weekly Deepstack NLH | `$250` | 50歳以上のみ |
+| 6/25(木) | 13:00 | Daily Deepstack NLH | `$250` | 観光前後に入れやすい |
+| 6/25(木) | 16:00 | Daily Deepstack NLH | `$400` | 観光を軽めにするなら本命 |
+| 6/25(木) | 20:00 | Daily Deepstack NLH | `$200` | 夜枠 |
+| 6/26(金) | 13:00 | Daily Deepstack NLH | `$250` | 19:00フリーロール前なので注意 |
+| 6/26(金) | 16:00 | Daily Deepstack NLH | `$400` | フリーロールと競合しやすい |
+| 6/26(金) | 20:00 | Daily Deepstack NLH | `$200` | フリーロール参加なら原則なし |
+| 6/27(土) | 16:00 | Daily Deepstack NLH | `$400` | 最終日なので見送り寄り |
+| 6/27(土) | 20:00 | Daily Deepstack NLH | `$200` | 空港移動と競合。見送り |
+
+### 低額候補の選び方
+
+| 候補 | ざっくり性格 | 選ぶ理由 |
+| --- | --- | --- |
+| `$250` Daily Deepstack | 一番バランス型。30分レベルで比較的遊びやすい | 初WSOPサイドイベントにちょうどいい |
+| `$400` Daily Deepstack | 少し高いが、参加者の本気度も上がりやすい | ちゃんとトーナメントを打った感が欲しい |
+| `$200` Daily Deepstack | 夜の軽め枠。翌日に響く可能性あり | その日の予定後にもう少し打ちたい |
+| `$135-$240` Satellite | 上位イベント参加券狙い。賞金よりチケット目的 | 低額で夢を見る枠 |
+| `$250` PLO/H.O.R.S.E. | NLH以外の種目を楽しむ枠 | 友人と変わった体験をしたい |
 
 ## 帰国便との相性
 
@@ -28,8 +82,19 @@
 | Event #65 Freezeout | OK | 6/23開始、Day 3が6/25。勝ち残ってもツアー内で完結 |
 | Event #63 Mystery Millions | NG寄り | Day 2が6/28、Day 3が6/29。帰国便と両立しない |
 | WSOP公認フリーロール | OK | 6/26 19:00開始。ツアー枠なので参加前提 |
-| Daily Deepstack | 要確認 | 1日完結型ならOK。現地で終了見込みを確認 |
+| Daily Deepstack | OK寄り | 基本は1日型。ただし長引く場合は翌日再開の可能性があるため現地確認 |
 | キャッシュゲーム | OK | 自分たちで終了時刻を決められる |
+
+## WSOP以外の周辺シリーズ候補
+
+WSOP会場外にも夏のポーカーシリーズがあります。移動が増えるため、まずはWSOP会場内のDaily Deepstackを優先し、物足りなければ追加で検討します。
+
+| 会場 | シリーズ | 期間 | Buy-in感 | 今回の扱い |
+| --- | --- | --- | --- | --- |
+| Wynn Las Vegas | Wynn Summer Classic | 5/20-7/13頃 | `$600+`中心、 Championshipは高額 | 低額より中高額寄り。観光ついでに確認 |
+| Venetian | DeepStack Championship Poker Series | 5月-8月頃 | `$1,100+`の大型イベントが目立つ | 日程と費用が合えば候補 |
+| ARIA | ARIA Poker Classic | 5/27-7/12頃 | `$800+`候補あり | ホテル外で打ちたい場合の候補 |
+| Golden Nugget | Grand Poker Series | 6月開催 | `$400`級の候補あり | ダウンタウン観光とセットなら要調査 |
 
 ## 観光候補
 

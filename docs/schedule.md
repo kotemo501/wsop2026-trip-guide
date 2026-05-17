@@ -39,22 +39,28 @@
 | 時間 | 予定 | 状態 |
 | --- | --- | --- |
 | 10:00 | WSOP Event #63 `$1,000 Mystery Millions` Flight A | 帰国便リスクあり |
+| 13:00 | WSOP Daily Deepstack NLH `$250` | 有力候補 |
 | 14:00 | WSOP Event #65 `$1,500 NLH Freezeout` | 候補 |
+| 15:00 | WSOP H.O.R.S.E. Deepstack `$250` | 変則候補 |
+| 16:00 | WSOP Daily Deepstack NLH `$400` | 有力候補 |
+| 20:00 | WSOP Daily Deepstack NLH `$200` | 夜候補 |
 | 夜 | キャッシュゲーム / 観光 / 食事 | 未定 |
 
 おすすめ方針:
 
 - `$1,000 Mystery Millions` はDay 2が6/28(日)、Day 3が6/29(月)なので、勝ち残る前提では帰国便と両立しない。
 - Freezeoutは3日イベントで6/25(木)までに完結する設計。Buy-inはやや高いが、帰国便リスクは低い。
+- Daily DeepstackはWSOP会場内の低額サイドイベント。初日に会場慣れするには一番扱いやすい。
 
 プラン候補:
 
 | プラン | 内容 | 向いている人 |
 | --- | --- | --- |
 | A: 帰国便優先で打つ | 14:00 `$1,500` Freezeout | 勝ち残ってもツアー内で完結させたい |
-| B: 1日だけ割り切る | 10:00 Mystery Millions Flight A | Day 2に進んだら帰国便と衝突する前提で遊ぶ |
-| C: 観光で慣らす | 昼はストリップ散歩、夜キャッシュ | 時差が心配 |
-| D: ショー日 | 夕方まで軽め、夜にショー | 旅らしさを早めに入れたい |
+| B: 低額トーナメント | 13:00 `$250` or 16:00 `$400` Daily Deepstack | 予算を抑えてWSOP会場で打ちたい |
+| C: 1日だけ割り切る | 10:00 Mystery Millions Flight A | Day 2に進んだら帰国便と衝突する前提で遊ぶ |
+| D: 観光で慣らす | 昼はストリップ散歩、夜キャッシュ | 時差が心配 |
+| E: ショー日 | 夕方まで軽め、夜にショー | 旅らしさを早めに入れたい |
 
 ## 2026-06-24(水) Day 3: Tag Team本命日
 
@@ -62,6 +68,10 @@
 | --- | --- | --- |
 | 10:00 | WSOP Event #63 `$1,000 Mystery Millions` Flight B | 帰国便リスクあり |
 | 12:00 | WSOP Event #66 `$1,000 NLH Tag Team` | 最有力候補 |
+| 13:00 | WSOP Daily Deepstack NLH `$250` | Tag Team不参加なら候補 |
+| 15:00 | WSOP PLO Deep Stack `$250` | Tag Team不参加なら候補 |
+| 16:00 | WSOP Daily Deepstack NLH `$400` | Tag Team不参加なら候補 |
+| 20:00 | WSOP Daily Deepstack NLH `$200` | Tag Team敗退後候補 |
 | 夜 | 結果次第で食事 or キャッシュ | 未定 |
 
 おすすめ方針:
@@ -69,6 +79,7 @@
 - 友人2人で行くなら、Tag Teamは体験価値が高い。
 - Tag Teamは3日イベントでDay 3が6/26(金)。勝ち残っても帰国便前に完結する設計。
 - Tag Teamに出るなら、この日は他の予定を詰めない。
+- Tag Teamを見送る場合は、16:00の`$400 Daily Deepstack`か20:00の`$200 Daily Deepstack`が代替候補。
 
 プラン候補:
 
@@ -76,8 +87,9 @@
 | --- | --- | --- |
 | A: Tag Team本命 | 12:00 Tag Teamのみ | 2人旅の記念と帰国便安全性を優先 |
 | B: Mystery Millions優先 | 10:00 Flight B | Day 2以降の帰国便衝突を許容する |
-| C: 昼は観光、夜キャッシュ | Tag Teamを見送る | Buy-inを抑えたい |
-| D: 片方観戦/片方プレイ | 体調・予算に合わせて分ける | 2人の希望が違う |
+| C: 低額トーナメント | 16:00 `$400` or 20:00 `$200` Daily Deepstack | Tag Teamを見送って安く打つ |
+| D: 昼は観光、夜キャッシュ | Tag Teamを見送る | Buy-inを抑えたい |
+| E: 片方観戦/片方プレイ | 体調・予算に合わせて分ける | 2人の希望が違う |
 
 ## 2026-06-25(木) Day 4: 予備日 + 観光候補
 
@@ -85,13 +97,17 @@
 | --- | --- | --- |
 | 10:00 | WSOP Event #63 `$1,000 Mystery Millions` Flight C | 帰国便リスクあり |
 | 12:00 | WSOP #68 `$1,000 Ladies Championship` | 条件該当者のみ候補 |
+| 13:00 | WSOP Daily Deepstack NLH `$250` | 有力候補 |
 | 14:00 | WSOP Event #69 `$1,500 Seven Card Stud Hi-Lo` | 低優先 |
+| 16:00 | WSOP Daily Deepstack NLH `$400` | 有力候補 |
+| 20:00 | WSOP Daily Deepstack NLH `$200` | 夜候補 |
 | 午後/夜 | 観光 or キャッシュ | 有力候補 |
 
 おすすめ方針:
 
 - 前日までにトーナメントを打てていれば、ここを観光・休憩日にする。
 - まだWSOPを打てていなければ、Daily Deepstackやキャッシュを優先。Mystery Millionsは勝ち残り時に帰国便と衝突する。
+- 6/25は観光日にもポーカー予備日にもできるので、`$250`か`$400`のDaily Deepstackが差し替えやすい。
 
 プラン候補:
 
@@ -99,16 +115,20 @@
 | --- | --- | --- |
 | A: 観光メイン | Sphere外観、Fremont、AREA15など | 旅の満足度を上げたい |
 | B: WSOP予備日 | Daily Deepstack or キャッシュ | 帰国便リスクを避けて打ちたい |
-| C: キャッシュ集中 | 午後から2-3時間のセッション | トーナメントより自由度重視 |
-| D: 休息日 | 昼まで休み、夜だけ行動 | 連日稼働を避けたい |
-| E: 遠出 | Red Rock / Hoover Dam / Grand Canyon系 | 予約・移動を許容できる |
+| C: `$400`本命 | 16:00 Daily Deepstack | 観光を短めにして打ちたい |
+| D: キャッシュ集中 | 午後から2-3時間のセッション | トーナメントより自由度重視 |
+| E: 休息日 | 昼まで休み、夜だけ行動 | 連日稼働を避けたい |
+| F: 遠出 | Red Rock / Hoover Dam / Grand Canyon系 | 予約・移動を許容できる |
 
 ## 2026-06-26(金) Day 5: フリーロール日
 
 | 時間 | 予定 | 状態 |
 | --- | --- | --- |
 | 10:00 | WSOP Event #63 `$1,000 Mystery Millions` Flight D | 帰国便リスクあり |
+| 13:00 | WSOP Daily Deepstack NLH `$250` | フリーロール前候補 |
+| 16:00 | WSOP Daily Deepstack NLH `$400` | フリーロールと競合しやすい |
 | 19:00 | WSOP公認ツアー限定フリーロール | 最有力候補 |
+| 20:00 | WSOP Daily Deepstack NLH `$200` | フリーロール参加なら見送り |
 | 夜 | フリーロール後に軽く食事 | 候補 |
 
 おすすめ方針:
@@ -121,9 +141,10 @@
 | プラン | 内容 | 向いている人 |
 | --- | --- | --- |
 | A: フリーロール最優先 | 昼は休憩、19:00参加 | ツアー限定体験を重視 |
-| B: 朝からWSOP | 10:00 Mystery Millions Flight D、夜は状況次第 | 帰国便リスクを理解してでも打つ |
-| C: 昼観光 + 夜フリーロール | 近場観光、19:00参加 | バランス重視 |
-| D: キャッシュ短時間 + フリーロール | 昼に軽く打つ | 打つ量を増やしたい |
+| B: 軽く1本 + フリーロール | 13:00 `$250` Daily Deepstack、19:00フリーロール | 体力と終了時刻に注意 |
+| C: 朝からWSOP | 10:00 Mystery Millions Flight D、夜は状況次第 | 帰国便リスクを理解してでも打つ |
+| D: 昼観光 + 夜フリーロール | 近場観光、19:00参加 | バランス重視 |
+| E: キャッシュ短時間 + フリーロール | 昼に軽く打つ | 打つ量を増やしたい |
 
 ## 2026-06-27(土) Day 6: 最終日
 
@@ -132,6 +153,7 @@
 | 11:00 | ホテルチェックアウト | ツアー確定枠 |
 | 10:00 | WSOP Event #63 `$1,000 Mystery Millions` Flight E | 見送り推奨 |
 | 14:00 | WSOP Event #71 `$2,500 Mixed Big Bet 7-Handed` | 低優先 |
+| 16:00 | WSOP Daily Deepstack NLH `$400` | 見送り寄り |
 | 午後 | 荷物預け、買い物、軽い観光 | 有力候補 |
 | 夜 | 空港へ移動 | ツアー確定枠 |
 | 深夜 | ラスベガス発 | ツアー確定枠 |
