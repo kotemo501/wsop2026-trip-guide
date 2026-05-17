@@ -61,8 +61,8 @@
 - Fremont Street Experienceはダウンタウン側の観光エリアで、ストリップ外のため移動手段の検討が必要です。
 - Bellagio Fountainsはホースシュー周辺から入れやすい無料観光候補です。
 - Grand Canyon Westはラスベガスから車で約2時間、ヘリで約30分のWest Rim候補です。West RimはGrand Canyon National ParkではなくHualapai Tribeの運営エリアです。
-- West Rimバスは`$105`前後から、約11.5時間のツアー例があります。South Rimバスは`$107`前後から、約14.5時間のツアー例があります。
-- Las Vegas発のGrand Canyonヘリは、Papillonで空中観光`$439`前後、谷底着陸付き`$519`前後からの例があります。
+- South Rimバスは`$107`前後から、約14.5時間のツアー例があります。6/25はSouth Rimで固定します。
+- West Rimやヘリは比較時に確認した参考情報で、今回の6/25候補からは外します。
 
 ## 周辺ポーカーシリーズ
 
