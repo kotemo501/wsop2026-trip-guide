@@ -1,3 +1,14 @@
+const navButtons = document.querySelectorAll("[data-view]");
+const viewPanels = document.querySelectorAll("[data-view-panel]");
+
+navButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    const target = button.dataset.view;
+    navButtons.forEach((item) => item.classList.toggle("is-active", item === button));
+    viewPanels.forEach((panel) => panel.classList.toggle("is-active", panel.dataset.viewPanel === target));
+  });
+});
+
 const taskInputs = document.querySelectorAll("[data-task]");
 
 taskInputs.forEach((input) => {

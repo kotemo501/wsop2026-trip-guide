@@ -8,21 +8,17 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <div class="promo-bar">
-      <span>Private Travel Board</span>
-      <strong>WSOP 2026 Las Vegas 8 Days</strong>
-      <span>Food-light / Experience-heavy</span>
-    </div>
     <header class="site-header">
       <a class="brand" href="#top" aria-label="WSOP 2026 Trip Guide">
-        <span class="brand-mark">KT</span>
-        <span><b>KOTEMO TRAVEL</b><small>WSOP 2026 Desk</small></span>
+        <span class="brand-mark">WSOP</span>
+        <span>2026 Las Vegas Trip</span>
       </a>
       <nav class="site-nav" aria-label="ページ内ナビゲーション">
-        <a href="#itinerary">日程</a>
-        <a href="#decisions">相談</a>
-        <a href="#budget">予算</a>
-        <a href="#todo">ToDo</a>
+        <button class="nav-button is-active" type="button" data-view="overview">概要</button>
+        <button class="nav-button" type="button" data-view="schedule">日程</button>
+        <button class="nav-button" type="button" data-view="choices">相談</button>
+        <button class="nav-button" type="button" data-view="budget">予算</button>
+        <button class="nav-button" type="button" data-view="prep">準備</button>
       </nav>
     </header>
 
@@ -31,277 +27,136 @@
         <img src="assets/wsop-vegas-hero.png" alt="ラスベガスとポーカーをイメージした旅行ビジュアル">
         <div class="hero-shade"></div>
         <div class="hero-content">
-          <p class="tour-label">Limited Itinerary / 2 Travelers</p>
-          <p class="eyebrow">2026.06.22 - 06.29 / Narita to Las Vegas</p>
-          <h1>WSOP 2026 Las Vegas<br>Experience Package</h1>
-          <p class="hero-lead">低額トーナメント、Tag Team、Grand Canyon South Rim、Sphereを組み込んだ、友人2人用の旅程相談ページ。</p>
-          <div class="hero-actions" aria-label="主要リンク">
-            <a class="primary-action" href="#itinerary">ツアー日程</a>
-            <a class="secondary-action" href="#budget">概算料金</a>
-          </div>
+          <p class="tour-label">ZIPAIR Charter Tour / 2 Travelers</p>
+          <h1>WSOPとラスベガスを遊び切る、6日間の作戦会議。</h1>
+          <p class="hero-lead">6/23 Daily、6/24 Tag Team、6/25 South Rim、6/27 Sphere。決定済みを軸に、残りの選択を友人と詰めるための旅のしおり。</p>
         </div>
         <aside class="hero-summary" aria-label="予算概要">
-          <span>Estimated Total / Person</span>
+          <span>1人あたり標準</span>
           <strong>約81万円</strong>
           <small>ツアー379,000円 + 現地$2,700 / $1=160円</small>
-          <div class="summary-tags">
-            <span>5 Nights</span>
-            <span>Horseshoe</span>
-            <span>Return Fixed</span>
-          </div>
         </aside>
       </section>
 
-      <section class="booking-panel" aria-label="商品概要">
-        <div class="booking-main">
-          <p class="eyebrow">Package Overview</p>
-          <h2>決定済みの体験を中心に、残りは相談して埋める</h2>
-          <p>通常食は節約し、予算はポーカー体験・Grand Canyon・Sphere・お土産に寄せる。帰国便固定のため、勝ち残りリスクの高い予定は入れない。</p>
-        </div>
-        <div class="booking-facts">
-          <article><span>Departure</span><strong>6/22 Mon</strong><small>成田発 / LAS着</small></article>
-          <article><span>Stay</span><strong>5 Nights</strong><small>Horseshoe Las Vegas</small></article>
-          <article><span>Style</span><strong>Experience</strong><small>食費節約、体験重視</small></article>
-        </div>
+      <section class="tour-strip" aria-label="決定済みハイライト">
+        <article><span>PARTY</span><strong>6/22 ウェルカムパーティー</strong></article>
+        <article><span>POKER</span><strong>6/23 $250 Daily</strong></article>
+        <article><span>EVENT</span><strong>6/24 Tag Team</strong></article>
+        <article><span>TRIP</span><strong>6/25 South Rim</strong></article>
+        <article><span>SHOW</span><strong>6/27 Sphere 14:00</strong></article>
       </section>
 
-      <section class="quick-strip" aria-label="決定済みハイライト">
-        <article>
-          <span class="icon-chip">01</span>
-          <p>6/22</p>
-          <strong>ウェルカムパーティー参加</strong>
-        </article>
-        <article>
-          <span class="icon-chip">02</span>
-          <p>6/23</p>
-          <strong>13:00 $250 Daily</strong>
-        </article>
-        <article>
-          <span class="icon-chip">03</span>
-          <p>6/24</p>
-          <strong>Tag Team確定</strong>
-        </article>
-        <article>
-          <span class="icon-chip">04</span>
-          <p>6/25</p>
-          <strong>South Rim確定</strong>
-        </article>
-        <article>
-          <span class="icon-chip">05</span>
-          <p>6/27</p>
-          <strong>14:00 Sphere</strong>
-        </article>
-      </section>
-
-      <section class="section-shell" id="itinerary">
-        <div class="section-title">
-          <p class="eyebrow">Itinerary</p>
-          <h2>日別プラン</h2>
-          <p>帰国便は固定。6/27夜の空港移動に響く予定は入れない。</p>
-        </div>
-
-        <div class="itinerary-list">
-          <article class="day-row is-fixed">
-            <div class="date-block"><span>Mon</span><strong>6/22</strong></div>
-            <div class="day-main">
-              <h3>到着・ウェルカムパーティー</h3>
-              <p>18:00-21:00 Ellis Island Casino。夜は無理せず会場下見か早寝。</p>
-            </div>
-            <div class="day-meta"><span>固定</span><b>$40 + 軽食</b></div>
-          </article>
-          <article class="day-row is-fixed">
-            <div class="date-block"><span>Tue</span><strong>6/23</strong></div>
-            <div class="day-main">
-              <h3>13:00 $250 Daily Deepstack</h3>
-              <p>参加確定。飛んだらキャッシュ。上限と終了時刻を先に決める。</p>
-            </div>
-            <div class="day-meta"><span>未決</span><b>Cash $300 / $500</b></div>
-          </article>
-          <article class="day-row is-fixed">
-            <div class="date-block"><span>Wed</span><strong>6/24</strong></div>
-            <div class="day-main">
-              <h3>WSOP Tag Team</h3>
-              <p>12:00 Event #66。2人で1チーム、$1,000/team。登録・集合・交代ルールを確認。</p>
-            </div>
-            <div class="day-meta"><span>固定</span><b>$500 / person</b></div>
-          </article>
-          <article class="day-row is-fixed">
-            <div class="date-block"><span>Thu</span><strong>6/25</strong></div>
-            <div class="day-main">
-              <h3>Grand Canyon South Rim</h3>
-              <p>終日ツアー。約14-15時間。帰着後は軽い食事と休息。</p>
-            </div>
-            <div class="day-meta"><span>固定</span><b>$150-$280</b></div>
-          </article>
-          <article class="day-row">
-            <div class="date-block"><span>Fri</span><strong>6/26</strong></div>
-            <div class="day-main">
-              <h3>フリー日</h3>
-              <p>お土産、散歩、キャッシュ、13:00 Daily、19:00フリーロールから体力で選ぶ。</p>
-            </div>
-            <div class="day-meta"><span>相談</span><b>$0-$500</b></div>
-          </article>
-          <article class="day-row is-fixed">
-            <div class="date-block"><span>Sat</span><strong>6/27</strong></div>
-            <div class="day-main">
-              <h3>Sphere + 他カジノ見学</h3>
-              <p>11:00チェックアウト、14:00 Sphere。Bellagio / Aria / Wynnなどを回収して空港へ。</p>
-            </div>
-            <div class="day-meta"><span>固定</span><b>Ticket + 移動</b></div>
-          </article>
-        </div>
-      </section>
-
-      <section class="split-section" id="decisions">
-        <div class="section-title">
-          <p class="eyebrow">Decision Board</p>
-          <h2>Travel Desk Memo</h2>
-          <p>画面を見ながら、優先順位と上限だけ先に決める。</p>
-        </div>
-        <div class="decision-board">
-          <article class="decision-card high">
-            <span>High</span>
-            <h3>ポーカー予算と撤退ルール</h3>
-            <p>6/23敗退後キャッシュ、6/26に打つか、総ポーカー上限。</p>
-            <ul>
-              <li>キャッシュ上限: $300 / $500 / $800</li>
-              <li>終了時刻: 22:00 / 24:00 / 眠くなったら終了</li>
-              <li>6/26: 休息 / Daily / フリーロール / キャッシュ</li>
-            </ul>
-          </article>
-          <article class="decision-card high">
-            <span>High</span>
-            <h3>予約が必要な体験</h3>
-            <p>South RimとSphereの予約・集合・入場条件。</p>
-            <ul>
-              <li>South Rim: 送迎場所、キャンセル条件、チップ</li>
-              <li>Sphere: 公演名、座席、入場時刻</li>
-              <li>6/27: 空港集合時刻から逆算</li>
-            </ul>
-          </article>
-          <article class="decision-card high">
-            <span>High</span>
-            <h3>渡航準備</h3>
-            <p>直前に詰まると面倒なものを先に潰す。</p>
-            <ul>
-              <li>ESTA、パスポート残存期間、ツアー提出情報</li>
-              <li>海外旅行保険、医療費補償</li>
-              <li>通信: eSIM / ローミング / Wi-Fi</li>
-            </ul>
-          </article>
-          <article class="decision-card">
-            <span>Medium</span>
-            <h3>お金と精算</h3>
-            <p>現金・カード・友人間の割り勘を分けて決める。</p>
-            <ul>
-              <li>USD現金: $1,800-$2,200目安</li>
-              <li>Tag Team支払い方法</li>
-              <li>共通費: Splitwise / メモ / 即精算</li>
-            </ul>
-          </article>
-          <article class="decision-card">
-            <span>Medium</span>
-            <h3>食事と買い出し</h3>
-            <p>通常食は節約。聖地巡礼系だけ外食予算を使う。</p>
-            <ul>
-              <li>聖地巡礼店: 1回 / 2回</li>
-              <li>水、軽食、カップ麺の初日買い出し</li>
-              <li>冷蔵庫、湯、電子レンジ確認</li>
-            </ul>
-          </article>
-          <article class="decision-card">
-            <span>Medium</span>
-            <h3>最終日の荷物</h3>
-            <p>チェックアウト後にSphereへ行くので、荷物管理が重要。</p>
-            <ul>
-              <li>ホテル預け / ツアー側預け / ロッカー</li>
-              <li>Sphereからホテル・空港集合場所への移動</li>
-              <li>最後の食事と空港前の余裕時間</li>
-            </ul>
-          </article>
-        </div>
-      </section>
-
-      <section class="section-shell budget-shell" id="budget">
-        <div class="section-title">
-          <p class="eyebrow">Budget</p>
-          <h2>予算早見</h2>
-          <p>食費を削って、Grand Canyon・Sphere・ポーカー体験に寄せる。</p>
-        </div>
-        <div class="budget-grid">
-          <article>
-            <span>節約寄り</span>
-            <strong>約699,000円</strong>
-            <p>現地$2,000。キャッシュ少なめ、お土産控えめ。</p>
-          </article>
-          <article class="recommended">
-            <span>今回の基本線</span>
-            <strong>約811,000円</strong>
-            <p>現地$2,700。Tag Team、South Rim、Sphere、キャッシュ上限$500。</p>
-          </article>
-          <article>
-            <span>余裕あり</span>
-            <strong>約1,059,000円</strong>
-            <p>現地$4,250。席アップ、買い物、キャッシュに余裕。</p>
-          </article>
-        </div>
-        <div class="cost-table" role="table" aria-label="標準予算内訳">
-          <div role="row"><b>6/23 Daily</b><span>$250</span><small>参加確定</small></div>
-          <div role="row"><b>Tag Team割り勘</b><span>$500</span><small>$1,000/team</small></div>
-          <div role="row"><b>キャッシュ損失上限</b><span>$500</span><small>上限として管理</small></div>
-          <div role="row"><b>Grand Canyon</b><span>$250</span><small>チップ/軽食込み</small></div>
-          <div role="row"><b>Sphere</b><span>$220</span><small>席で変動</small></div>
-          <div role="row"><b>食事</b><span>$250</span><small>節約食 + 聖地巡礼</small></div>
-          <div role="row"><b>移動・チップ</b><span>$220</span><small>Uber/Lyft含む</small></div>
-          <div role="row"><b>お土産</b><span>$250</span><small>6/26に厚め</small></div>
-        </div>
-      </section>
-
-      <section class="two-column" id="todo">
-        <div class="todo-panel">
-          <div class="section-title compact">
-            <p class="eyebrow">ToDo</p>
-            <h2>出発前チェック</h2>
-          </div>
-          <button class="reset-button" type="button" data-reset>チェックを戻す</button>
-          <div class="task-list">
-            <label><input type="checkbox" data-task="tag"> Tag Teamの登録・集合・交代ルール</label>
-            <label><input type="checkbox" data-task="cash"> 6/23敗退後キャッシュ上限</label>
-            <label><input type="checkbox" data-task="grandcanyon"> South Rimの予約先・集合時刻</label>
-            <label><input type="checkbox" data-task="sphere"> Sphereの公演名・チケット・入場時刻</label>
-            <label><input type="checkbox" data-task="esta"> ESTA・パスポート・ツアー提出情報</label>
-            <label><input type="checkbox" data-task="insurance"> 海外旅行保険と緊急連絡先</label>
-            <label><input type="checkbox" data-task="sim"> 通信手段 eSIM / ローミング</label>
-            <label><input type="checkbox" data-task="split"> 友人間の割り勘・精算方法</label>
-            <label><input type="checkbox" data-task="luggage"> 6/27チェックアウト後の荷物管理</label>
-            <label><input type="checkbox" data-task="airport"> 最終日の空港移動と集合時刻</label>
-          </div>
-        </div>
-
-        <aside class="money-panel">
-          <div class="section-title compact">
-            <p class="eyebrow">Money</p>
-            <h2>持って行き方</h2>
-          </div>
-          <div class="money-note">
-            <b>USD現金</b>
-            <p>$1,800-$2,200を基準。多額を持ち歩かず、ポーカー用・交通チップ用・緊急用に分ける。</p>
-          </div>
-          <div class="money-note">
-            <b>カード</b>
-            <p>クレカ2枚 + 海外ATM用カード。Grand Canyon、Sphere、買い物はカード中心。</p>
-          </div>
-          <div class="money-note">
-            <b>申告ライン</b>
-            <p>日本は100万円相当超、米国は$10,000超で申告対象。今回案では超えない。</p>
-          </div>
+      <section class="workspace" aria-label="旅のしおり">
+        <aside class="side-panel">
+          <p class="eyebrow">Trip Status</p>
+          <h2>決定済み</h2>
+          <dl>
+            <div><dt>出発</dt><dd>2026-06-22 成田</dd></div>
+            <div><dt>滞在</dt><dd>Horseshoe 5泊</dd></div>
+            <div><dt>帰国便</dt><dd>固定。6/27夜に空港へ</dd></div>
+            <div><dt>食事方針</dt><dd>節約食 + 聖地巡礼だけ外食</dd></div>
+          </dl>
+          <button class="reset-button" type="button" data-reset>ToDoをリセット</button>
         </aside>
+
+        <div class="view-stack">
+          <section class="view-panel is-active" id="overview" data-view-panel="overview">
+            <div class="panel-head">
+              <p class="eyebrow">Overview</p>
+              <h2>この旅の軸</h2>
+              <p>公式ツアーの熱量は残しつつ、自分たち用には「何を決めるか」がすぐ見える形に絞る。</p>
+            </div>
+            <div class="feature-grid">
+              <article>
+                <span>01</span>
+                <h3>ポーカーは参加しやすい枠中心</h3>
+                <p>$250 Daily、Tag Team、キャッシュ、フリーロール。帰国便に干渉する長期戦は避ける。</p>
+              </article>
+              <article>
+                <span>02</span>
+                <h3>体験にお金を寄せる</h3>
+                <p>通常食は軽く済ませ、Grand Canyon、Sphere、お土産、ポーカー体験に回す。</p>
+              </article>
+              <article>
+                <span>03</span>
+                <h3>最終日は観光と移動優先</h3>
+                <p>6/27はSphereと他カジノ見学。チェックアウト後の荷物管理を先に決める。</p>
+              </article>
+            </div>
+          </section>
+
+          <section class="view-panel" id="schedule" data-view-panel="schedule">
+            <div class="panel-head compact">
+              <p class="eyebrow">Schedule</p>
+              <h2>日別カード</h2>
+            </div>
+            <div class="day-grid">
+              <article class="day-card fixed"><time>6/22 Mon</time><h3>到着・パーティー</h3><p>18:00-21:00 Ellis Island Casino。夜は軽め。</p><b>$40 + 軽食</b></article>
+              <article class="day-card fixed"><time>6/23 Tue</time><h3>13:00 Daily</h3><p>$250 Daily参加。飛んだらキャッシュ。</p><b>上限を相談</b></article>
+              <article class="day-card fixed"><time>6/24 Wed</time><h3>Tag Team</h3><p>2人1組の本命体験。登録と集合時刻を確認。</p><b>$500 / 人</b></article>
+              <article class="day-card fixed"><time>6/25 Thu</time><h3>South Rim</h3><p>終日ツアー。帰着後は休息。</p><b>$150-$280</b></article>
+              <article class="day-card"><time>6/26 Fri</time><h3>フリー日</h3><p>買い物、散歩、キャッシュ、Daily、フリーロール。</p><b>$0-$500</b></article>
+              <article class="day-card fixed"><time>6/27 Sat</time><h3>Sphere + カジノ見学</h3><p>14:00 Sphere。前後で近場を回って空港へ。</p><b>荷物管理</b></article>
+            </div>
+          </section>
+
+          <section class="view-panel" id="choices" data-view-panel="choices">
+            <div class="panel-head compact">
+              <p class="eyebrow">Decision Board</p>
+              <h2>相談すること</h2>
+            </div>
+            <div class="choice-list">
+              <article><span>High</span><h3>6/23敗退後キャッシュ</h3><p>上限 $300 / $500 / $800、終了時刻 22:00 / 24:00 / 眠気優先。</p></article>
+              <article><span>High</span><h3>6/25 South Rim予約</h3><p>送迎場所、集合時刻、チップ、キャンセル条件を確認。</p></article>
+              <article><span>High</span><h3>6/27 Sphereと荷物</h3><p>公演名、座席、入場時刻、ホテル預け、空港集合時刻。</p></article>
+              <article><span>Medium</span><h3>6/26フリー日</h3><p>休息、買い物、Daily、フリーロール、キャッシュの優先順位。</p></article>
+              <article><span>Medium</span><h3>聖地巡礼ご飯</h3><p>外食は1-2回に絞る。通常食はCVS/スーパー/カップ麺。</p></article>
+            </div>
+          </section>
+
+          <section class="view-panel" id="budget" data-view-panel="budget">
+            <div class="panel-head compact">
+              <p class="eyebrow">Budget</p>
+              <h2>予算</h2>
+            </div>
+            <div class="budget-cards">
+              <article><span>節約</span><strong>約69.9万円</strong><p>現地$2,000。キャッシュ少なめ。</p></article>
+              <article class="recommended"><span>基本線</span><strong>約81.1万円</strong><p>現地$2,700。今回の標準。</p></article>
+              <article><span>余裕</span><strong>約105.9万円</strong><p>現地$4,250。席や買い物に余裕。</p></article>
+            </div>
+            <div class="cost-list">
+              <div><b>Daily + Tag Team</b><span>$750</span></div>
+              <div><b>キャッシュ損失上限</b><span>$500</span></div>
+              <div><b>South Rim + Sphere</b><span>$470</span></div>
+              <div><b>食事・移動・土産</b><span>$720</span></div>
+            </div>
+          </section>
+
+          <section class="view-panel" id="prep" data-view-panel="prep">
+            <div class="panel-head compact">
+              <p class="eyebrow">Preparation</p>
+              <h2>出発前チェック</h2>
+            </div>
+            <div class="task-list">
+              <label><input type="checkbox" data-task="tag"> Tag Teamの登録・集合・交代ルール</label>
+              <label><input type="checkbox" data-task="cash"> 6/23敗退後キャッシュ上限</label>
+              <label><input type="checkbox" data-task="grandcanyon"> South Rimの予約先・集合時刻</label>
+              <label><input type="checkbox" data-task="sphere"> Sphereの公演名・チケット・入場時刻</label>
+              <label><input type="checkbox" data-task="esta"> ESTA・パスポート・ツアー提出情報</label>
+              <label><input type="checkbox" data-task="insurance"> 海外旅行保険と緊急連絡先</label>
+              <label><input type="checkbox" data-task="sim"> 通信手段 eSIM / ローミング</label>
+              <label><input type="checkbox" data-task="split"> 友人間の割り勘・精算方法</label>
+              <label><input type="checkbox" data-task="luggage"> 6/27チェックアウト後の荷物管理</label>
+              <label><input type="checkbox" data-task="airport"> 最終日の空港移動と集合時刻</label>
+            </div>
+          </section>
+        </div>
       </section>
     </main>
 
     <footer class="footer">
       <span>WSOP 2026 Trip Guide</span>
-      <span>GitHub Pages / Static Site</span>
+      <span>Static itinerary board</span>
     </footer>
 
     <script src="app.js"></script>
