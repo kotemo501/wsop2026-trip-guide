@@ -6,19 +6,30 @@
 
 | 種類 | 候補 | 日時 | 目安費用 | 拘束 | コメント |
 | --- | --- | --- | ---: | --- | --- |
-| WSOP本戦 | Event #63 Mystery Millions Flight A | 6/23(火) 10:00 | `$1,000` | 重い | 初WSOP候補。複数Flightあり |
-| WSOP本戦 | Event #65 NLH Freezeout | 6/23(火) 14:00 | `$1,500` | 中-重 | 再エントリーなしで予算管理しやすい |
-| WSOP本戦 | Event #63 Mystery Millions Flight B | 6/24(水) 10:00 | `$1,000` | 重い | Tag Teamと同日なので競合 |
-| WSOP本戦 | Event #66 Tag Team | 6/24(水) 12:00 | `$1,000/team` | 重い | 友人2人なら最有力 |
-| WSOP本戦 | Event #63 Mystery Millions Flight C | 6/25(木) 10:00 | `$1,000` | 重い | 予備日候補 |
-| WSOP本戦 | Event #63 Mystery Millions Flight D | 6/26(金) 10:00 | `$1,000` | 重い | 夜フリーロールと競合し得る |
-| WSOP本戦 | Event #63 Mystery Millions Flight E | 6/27(土) 10:00 | `$1,000` | 重い | 最終日なので非推奨寄り |
-| WSOP本戦 | Event #63 Mystery Millions Flight F | 6/27(土) 18:00 | `$1,000` | 重い | 空港移動と強く競合 |
+| WSOP本戦 | Event #63 Mystery Millions Flight A | 6/23(火) 10:00 | `$1,000` | 重い | Day 2が6/28、Day 3が6/29。帰国便と両立しない |
+| WSOP本戦 | Event #65 NLH Freezeout | 6/23(火) 14:00 | `$1,500` | 中-重 | 3日イベント。6/25までに完結する設計 |
+| WSOP本戦 | Event #63 Mystery Millions Flight B | 6/24(水) 10:00 | `$1,000` | 重い | Tag Teamと競合。Day 2以降は帰国便と衝突 |
+| WSOP本戦 | Event #66 Tag Team | 6/24(水) 12:00 | `$1,000/team` | 重い | 3日イベント。Day 3が6/26で帰国便前に完結 |
+| WSOP本戦 | Event #63 Mystery Millions Flight C | 6/25(木) 10:00 | `$1,000` | 重い | Day 2以降は帰国便と衝突 |
+| WSOP本戦 | Event #63 Mystery Millions Flight D | 6/26(金) 10:00 | `$1,000` | 重い | 夜フリーロールと競合。Day 2以降は帰国便と衝突 |
+| WSOP本戦 | Event #63 Mystery Millions Flight E | 6/27(土) 10:00 | `$1,000` | 重い | 最終日なので見送り推奨 |
+| WSOP本戦 | Event #63 Mystery Millions Flight F | 6/27(土) 18:00 | `$1,000` | 重い | 空港移動と強く競合。見送り推奨 |
 | ツアー特典 | WSOP公認フリーロール | 6/26(金) 19:00 | 無料 | 中 | ツアー参加なら優先度高 |
 | Daily系 | WSOP Daily Deepstack | 毎日想定 | `$100-$300`程度 | 中 | 2026詳細は現地/公式で再確認 |
 | キャッシュ | Horseshoe/Paris周辺 | 随時 | 任意 | 軽-中 | ホテル近くで時間調整しやすい |
 | キャッシュ | Bellagio / Aria / Wynnなど | 随時 | 任意 | 中 | 雰囲気重視、移動あり |
 | 観戦 | WSOP会場を歩く | 随時 | 無料 | 軽 | 初日や休憩日に入れやすい |
+
+## 帰国便との相性
+
+| 候補 | 判定 | 理由 |
+| --- | --- | --- |
+| Event #66 Tag Team | OK | 6/24開始、Day 3が6/26。勝ち残っても帰国移動前に終わる設計 |
+| Event #65 Freezeout | OK | 6/23開始、Day 3が6/25。勝ち残ってもツアー内で完結 |
+| Event #63 Mystery Millions | NG寄り | Day 2が6/28、Day 3が6/29。帰国便と両立しない |
+| WSOP公認フリーロール | OK | 6/26 19:00開始。ツアー枠なので参加前提 |
+| Daily Deepstack | 要確認 | 1日完結型ならOK。現地で終了見込みを確認 |
+| キャッシュゲーム | OK | 自分たちで終了時刻を決められる |
 
 ## 観光候補
 
@@ -68,8 +79,8 @@
 
 | 日 | メイン |
 | --- | --- |
-| 6/22 | 到着、会場下見、早寝 |
-| 6/23 | Mystery Millions Flight A |
+| 6/22 | 到着、ウェルカムパーティー、早寝 |
+| 6/23 | Freezeout or Daily Deepstack |
 | 6/24 | Tag Team |
 | 6/25 | 予備日 or キャッシュ |
 | 6/26 | フリーロール |
@@ -79,8 +90,8 @@
 
 | 日 | メイン |
 | --- | --- |
-| 6/22 | 到着、ウェルカムパーティー or 近場散歩 |
-| 6/23 | Mystery Millions or キャッシュ |
+| 6/22 | 到着、ウェルカムパーティー |
+| 6/23 | Freezeout or キャッシュ |
 | 6/24 | Tag Team |
 | 6/25 | 観光本命日 |
 | 6/26 | 昼軽め、夜フリーロール |
@@ -90,7 +101,7 @@
 
 | 日 | メイン |
 | --- | --- |
-| 6/22 | 到着、近場散歩 |
+| 6/22 | 到着、ウェルカムパーティー |
 | 6/23 | WSOP会場見学、夜キャッシュ |
 | 6/24 | Tag Teamだけ参加 |
 | 6/25 | Fremont / AREA15 / Sphereなど |
@@ -101,7 +112,7 @@
 
 | 日 | メイン |
 | --- | --- |
-| 6/22 | ウェルカムパーティー見送り、近場無料観光 |
+| 6/22 | ウェルカムパーティー参加、深夜行動はしない |
 | 6/23 | Daily Deepstack or 低額キャッシュ |
 | 6/24 | Tag Teamだけ検討 |
 | 6/25 | 無料/低額観光 |
@@ -112,10 +123,9 @@
 
 | 質問 | YESなら |
 | --- | --- |
-| WSOPブレスレットイベントに出たい？ | Mystery MillionsかTag Teamを優先 |
+| WSOPブレスレットイベントに出たい？ | 帰国便までに終わるTag TeamかFreezeoutを優先 |
 | 2人旅らしい体験を残したい？ | Tag Teamを最優先 |
 | 予算を抑えたい？ | Daily Deepstack、キャッシュ、フリーロール中心 |
 | 初ラスベガス感がほしい？ | Bellagio、Sphere、Fremont、ショーを最低1つ |
 | 疲れやすい？ | 6/25を休憩/観光日にして、6/26フリーロールに備える |
 | 最終日も打ちたい？ | キャッシュ短時間まで。WSOP Flight E/Fは飛行機リスクあり |
-

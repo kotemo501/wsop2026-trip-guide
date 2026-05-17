@@ -32,6 +32,12 @@
 - 2026-06-27(土) 14:00 Event #71 `$2,500 Mixed Big Bet 7-Handed`
 - 2026-06-27(土) 18:00 Event #63 Mystery Millions Flight F
 
+確認した主な構造:
+
+- Event #63 Mystery Millions: Day 2は2026-06-28(日) 11:00再開、Day 3は2026-06-29(月)。今回の帰国便とは両立しません。
+- Event #65 `$1,500 Freezeout`: 2026-06-23(火)開始の3日イベント。Day 3は2026-06-25(木)。
+- Event #66 `$1,000 Tag Team`: 2026-06-24(水)開始の3日イベント。Day 3は2026-06-26(金)。
+
 ## 観光・ショー候補
 
 - Vegas.com June 2026 shows: https://www.vegas.com/shows/june/
