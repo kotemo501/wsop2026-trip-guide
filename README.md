@@ -45,6 +45,7 @@
 - [docs/schedule.md](docs/schedule.md): 日別スケジュール案
 - [docs/options.md](docs/options.md): ポーカー・観光・食事・休憩の候補リスト
 - [docs/budget.md](docs/budget.md): ツアー代を含めた総予算
+- [docs/money-logistics.md](docs/money-logistics.md): 現金・カード・ATM・ポーカー資金の持ち方
 - [docs/poker-plan.md](docs/poker-plan.md): WSOP、Daily Deepstack、キャッシュゲーム方針
 - [docs/tourism-and-food.md](docs/tourism-and-food.md): 観光・食事候補
 - [docs/grand-canyon.md](docs/grand-canyon.md): 6/25にGrand Canyonツアーを入れる場合の候補・費用・ToDo

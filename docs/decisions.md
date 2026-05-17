@@ -57,6 +57,7 @@
 | 6/27に見に行く他カジノを決める | `decision`, `tourism` |
 | 節約食の買い出しと設備確認 | `todo`, `budget`, `food` |
 | 総予算の上限を決める | `decision`, `budget` |
+| USD現金とカード構成を決める | `decision`, `budget`, `todo` |
 | キャッシュゲーム撤退ルール | `decision`, `poker`, `budget` |
 | ESTA/渡航準備チェック | `todo`, `booking` |
 | Sphere以外のショー/食事予約候補を決める | `decision`, `tourism` |
@@ -76,3 +77,4 @@
 | お土産 |  |  |  |
 | 現地予算合計 |  |  | `$1 = 160円`で円換算 |
 | 総予算 |  |  | ツアー代 + 現地予算 |
+| 持参USD現金 |  |  | おすすめ`$1,800-$2,200` |
