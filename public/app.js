@@ -31,8 +31,11 @@ const heroImage = document.querySelector("[data-hero-image]");
 const heroDots = document.querySelectorAll(".hero-dots span");
 const heroSlides = [
   "assets/las-vegas-night.jpg",
+  "assets/ellis-island-casino.jpg",
   "assets/wsop-poker-table.jpg",
+  "assets/horseshoe-entrance.jpg",
   "assets/grand-canyon-south-rim.jpg",
+  "assets/fashion-show-mall.jpg",
   "assets/sphere-las-vegas.jpg",
 ];
 let heroIndex = 0;

@@ -246,6 +246,8 @@ h3 {
 }
 
 .quick-strip article {
+  position: relative;
+  overflow: hidden;
   min-height: 122px;
   padding: 14px;
   border: 1px solid var(--line);
@@ -256,9 +258,55 @@ h3 {
   transition: transform 180ms ease, box-shadow 180ms ease;
 }
 
+.quick-strip article::before {
+  position: absolute;
+  inset: 0;
+  content: "";
+  background: var(--quick-image) center / cover;
+  opacity: 0.22;
+  transition: opacity 180ms ease, transform 240ms ease;
+}
+
+.quick-strip article::after {
+  position: absolute;
+  inset: 0;
+  content: "";
+  background: linear-gradient(0deg, rgba(255, 253, 248, 0.94), rgba(255, 253, 248, 0.48));
+}
+
+.quick-strip article > * {
+  position: relative;
+  z-index: 1;
+}
+
 .quick-strip article:hover {
   transform: translateY(-4px);
   box-shadow: 0 24px 48px rgba(17, 26, 40, 0.18);
+}
+
+.quick-strip article:hover::before {
+  opacity: 0.34;
+  transform: scale(1.05);
+}
+
+.quick-arrival {
+  --quick-image: url("assets/ellis-island-casino.jpg");
+}
+
+.quick-daily {
+  --quick-image: url("assets/wsop-poker-table.jpg");
+}
+
+.quick-tag {
+  --quick-image: url("assets/horseshoe-entrance.jpg");
+}
+
+.quick-canyon {
+  --quick-image: url("assets/grand-canyon-south-rim.jpg");
+}
+
+.quick-sphere {
+  --quick-image: url("assets/sphere-las-vegas.jpg");
 }
 
 .quick-strip span,
@@ -433,6 +481,28 @@ h3 {
   background: #fffaf0;
 }
 
+.guide-media,
+.pack-media {
+  height: 118px;
+  margin: -16px -16px 14px;
+  border-radius: 8px 8px 0 0;
+  background:
+    linear-gradient(0deg, rgba(17, 26, 40, 0.36), rgba(17, 26, 40, 0.04)),
+    var(--card-image) center / cover;
+}
+
+.guide-schedule {
+  --card-image: url("assets/las-vegas-night.jpg");
+}
+
+.guide-prep {
+  --card-image: url("assets/passports.jpg");
+}
+
+.guide-carry {
+  --card-image: url("assets/airplane-carryon.jpg");
+}
+
 .guide-grid p,
 .packing-grid li,
 .budget-cards p {
@@ -578,10 +648,22 @@ h3 {
     url("assets/las-vegas-night.jpg") center / cover;
 }
 
-.timeline-poker .timeline-photo {
+.timeline-arrival .timeline-photo {
+  background-image:
+    linear-gradient(0deg, rgba(17, 26, 40, 0.58), rgba(17, 26, 40, 0.06)),
+    url("assets/ellis-island-casino.jpg");
+}
+
+.timeline-daily .timeline-photo {
   background-image:
     linear-gradient(0deg, rgba(17, 26, 40, 0.58), rgba(17, 26, 40, 0.06)),
     url("assets/wsop-poker-table.jpg");
+}
+
+.timeline-tag .timeline-photo {
+  background-image:
+    linear-gradient(0deg, rgba(17, 26, 40, 0.58), rgba(17, 26, 40, 0.06)),
+    url("assets/horseshoe-entrance.jpg");
 }
 
 .timeline-canyon .timeline-photo {
@@ -590,14 +672,16 @@ h3 {
     url("assets/grand-canyon-south-rim.jpg");
 }
 
+.timeline-free .timeline-photo {
+  background-image:
+    linear-gradient(0deg, rgba(17, 26, 40, 0.58), rgba(17, 26, 40, 0.06)),
+    url("assets/fashion-show-mall.jpg");
+}
+
 .timeline-sphere .timeline-photo {
   background-image:
     linear-gradient(0deg, rgba(17, 26, 40, 0.58), rgba(17, 26, 40, 0.06)),
     url("assets/sphere-las-vegas.jpg");
-}
-
-.timeline-night .timeline-photo {
-  background-position: center;
 }
 
 .timeline time {
@@ -632,6 +716,46 @@ h3 {
 
 .check-section + .check-section {
   margin-top: 18px;
+}
+
+.check-section {
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fffaf0;
+}
+
+.section-photo {
+  height: 122px;
+  margin: -14px -14px 14px;
+  border-radius: 8px 8px 0 0;
+  background:
+    linear-gradient(0deg, rgba(17, 26, 40, 0.42), rgba(17, 26, 40, 0.04)),
+    var(--section-image) center / cover;
+}
+
+.check-docs {
+  --section-image: url("assets/passports.jpg");
+}
+
+.check-poker {
+  --section-image: url("assets/wsop-poker-table.jpg");
+}
+
+.check-booking {
+  --section-image: url("assets/sphere-las-vegas.jpg");
+}
+
+.pack-cabin {
+  --card-image: url("assets/airplane-cabin.jpg");
+}
+
+.pack-luggage {
+  --card-image: url("assets/airplane-carryon.jpg");
+}
+
+.pack-food {
+  --card-image: url("assets/cup-noodles.jpg");
 }
 
 .task-list {
@@ -702,6 +826,17 @@ h3 {
   margin: 10px 0 8px;
   font-size: 28px;
   line-height: 1.1;
+}
+
+.money-visual {
+  height: 220px;
+  margin-top: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background:
+    linear-gradient(90deg, rgba(17, 26, 40, 0.72), rgba(17, 26, 40, 0.12)),
+    url("assets/us-dollars.jpg") center / cover;
+  box-shadow: var(--shadow);
 }
 
 .cost-list {

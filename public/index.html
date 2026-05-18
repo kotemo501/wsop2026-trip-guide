@@ -41,15 +41,18 @@
           <span></span>
           <span></span>
           <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
       </section>
 
       <section class="quick-strip" aria-label="決定済み予定">
-        <article data-view-jump="schedule"><span>6/22</span><strong>到着・ウェルカムパーティー</strong><small>Ellis Island 18:00-21:00</small></article>
-        <article data-view-jump="schedule"><span>6/23</span><strong>$250 Daily</strong><small>13:00。飛んだらキャッシュ</small></article>
-        <article data-view-jump="schedule"><span>6/24</span><strong>Tag Team</strong><small>Event #66 / 12:00</small></article>
-        <article data-view-jump="schedule"><span>6/25</span><strong>Grand Canyon</strong><small>South Rim 終日</small></article>
-        <article data-view-jump="schedule"><span>6/27</span><strong>Sphere</strong><small>The Wizard of Oz 14:00</small></article>
+        <article class="quick-arrival" data-view-jump="schedule"><span>6/22</span><strong>到着・ウェルカムパーティー</strong><small>Ellis Island 18:00-21:00</small></article>
+        <article class="quick-daily" data-view-jump="schedule"><span>6/23</span><strong>$250 Daily</strong><small>13:00。飛んだらキャッシュ</small></article>
+        <article class="quick-tag" data-view-jump="schedule"><span>6/24</span><strong>Tag Team</strong><small>Event #66 / 12:00</small></article>
+        <article class="quick-canyon" data-view-jump="schedule"><span>6/25</span><strong>Grand Canyon</strong><small>South Rim 終日</small></article>
+        <article class="quick-sphere" data-view-jump="schedule"><span>6/27</span><strong>Sphere</strong><small>The Wizard of Oz 14:00</small></article>
       </section>
 
       <section class="layout" aria-label="旅のしおり">
@@ -62,7 +65,7 @@
             <li><b>注意点</b><span>最終日荷物、Sphereバッグ、WSOP登録</span></li>
           </ol>
           <div class="side-pass">
-            <img src="assets/las-vegas-night.jpg" alt="">
+            <img src="assets/horseshoe-entrance.jpg" alt="">
             <div>
               <span>Trip Base</span>
               <b>Horseshoe Las Vegas</b>
@@ -81,17 +84,20 @@
             </div>
 
             <div class="guide-grid">
-              <article>
+              <article class="guide-schedule">
+                <div class="guide-media" aria-hidden="true"></div>
                 <span>日程</span>
                 <h3>日付ごとのタイムテーブル</h3>
                 <p>6/22から6/27まで、朝・昼・夜で何をするかを見る。予定が固定の日と、当日判断の日を分ける。</p>
               </article>
-              <article>
+              <article class="guide-prep">
+                <div class="guide-media" aria-hidden="true"></div>
                 <span>準備</span>
                 <h3>出発前チェック</h3>
                 <p>ESTA、パスポート、WSOP登録、保険、外貨、ZIPAIR荷物ルールを出発前に確認する。</p>
               </article>
-              <article>
+              <article class="guide-carry">
+                <div class="guide-media" aria-hidden="true"></div>
                 <span>現地</span>
                 <h3>当日の持ち物</h3>
                 <p>カジノ、Grand Canyon、Sphere、最終日で持つものが違う。日別に忘れ物を防ぐ。</p>
@@ -141,7 +147,7 @@
             </div>
 
             <div class="timeline">
-              <article class="timeline-night">
+              <article class="timeline-arrival">
                 <div class="timeline-photo" aria-hidden="true"></div>
                 <time>6/22 Mon</time>
                 <h3>到着・ウェルカムパーティー</h3>
@@ -149,7 +155,7 @@
                 <div><b>18:00</b><span>Ellis Island Casino ウェルカムパーティー。</span></div>
                 <div><b>夜</b><span>翌日のDailyに備えて軽め。無理にカジノで粘らない。</span></div>
               </article>
-              <article class="timeline-poker">
+              <article class="timeline-daily">
                 <div class="timeline-photo" aria-hidden="true"></div>
                 <time>6/23 Tue</time>
                 <h3>Daily Deepstack + キャッシュ</h3>
@@ -157,7 +163,7 @@
                 <div><b>13:00</b><span>$250 Daily Deepstack NLHに参加。</span></div>
                 <div><b>飛んだら</b><span>$1/$2キャッシュ候補。勝ち残ったら夜予定は入れない。</span></div>
               </article>
-              <article class="timeline-poker">
+              <article class="timeline-tag">
                 <div class="timeline-photo" aria-hidden="true"></div>
                 <time>6/24 Wed</time>
                 <h3>Tag Team</h3>
@@ -173,7 +179,7 @@
                 <div><b>日中</b><span>South Rim観光。昼食込み候補が多いが、予約内容を確認。</span></div>
                 <div><b>夜</b><span>21:30-23:00帰着目安。帰着後は予定を入れない。</span></div>
               </article>
-              <article class="timeline-night">
+              <article class="timeline-free">
                 <div class="timeline-photo" aria-hidden="true"></div>
                 <time>6/26 Fri</time>
                 <h3>フリー日</h3>
@@ -200,7 +206,8 @@
             </div>
 
             <div class="packing-grid">
-              <article>
+              <article class="pack-cabin">
+                <div class="pack-media" aria-hidden="true"></div>
                 <h3>機内持ち込み</h3>
                 <ul>
                   <li>パスポート、ESTA控え、ツアー書類</li>
@@ -209,7 +216,8 @@
                   <li>1日分の着替え、イヤホン</li>
                 </ul>
               </article>
-              <article>
+              <article class="pack-luggage">
+                <div class="pack-media" aria-hidden="true"></div>
                 <h3>預け荷物</h3>
                 <ul>
                   <li>衣類、洗面具、予備の靴下</li>
@@ -218,7 +226,8 @@
                   <li>刃物類や工具類は預け荷物へ</li>
                 </ul>
               </article>
-              <article>
+              <article class="pack-food">
+                <div class="pack-media" aria-hidden="true"></div>
                 <h3>日本から持つ / 現地で買う</h3>
                 <ul>
                   <li>カップ麺は肉・鶏・豚エキスなしを少量</li>
@@ -245,7 +254,8 @@
               <p>出発前に潰すもの。チェック状態はブラウザに保存される。</p>
             </div>
 
-            <div class="check-section">
+            <div class="check-section check-docs">
+              <div class="section-photo" aria-hidden="true"></div>
               <h3>書類・入国</h3>
               <div class="task-list">
                 <label><input type="checkbox" data-task="esta"> ESTA有効期限とパスポート番号一致</label>
@@ -254,7 +264,8 @@
               </div>
             </div>
 
-            <div class="check-section">
+            <div class="check-section check-poker">
+              <div class="section-photo" aria-hidden="true"></div>
               <h3>WSOP・ポーカー</h3>
               <div class="task-list">
                 <label><input type="checkbox" data-task="wsop-live"> WSOP LIVEアカウント</label>
@@ -263,7 +274,8 @@
               </div>
             </div>
 
-            <div class="check-section">
+            <div class="check-section check-booking">
+              <div class="section-photo" aria-hidden="true"></div>
               <h3>予約・お金・保険</h3>
               <div class="task-list">
                 <label><input type="checkbox" data-task="grandcanyon"> South Rim予約、集合場所、帰着時刻</label>
@@ -302,6 +314,8 @@
               <article class="recommended"><span>基本線</span><strong>$2,850</strong><p>現地追加の標準目安。体験重視、食費節約。</p></article>
               <article><span>カード</span><strong>予約・買い物</strong><p>Sphere、Grand Canyon、お土産、必要な追加支払い。</p></article>
             </div>
+
+            <div class="money-visual" aria-hidden="true"></div>
 
             <div class="cost-list">
               <div><b>Daily + Tag Team</b><span>$750</span></div>
