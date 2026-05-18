@@ -78,20 +78,16 @@
 | B: 敗退後軽め | 食事 or 短時間キャッシュ | 体力を残したい |
 | C: 敗退後もう1本 | 20:00 `$200` Daily Deepstack | まだ打ちたい |
 
-## 2026-06-25(木) Day 4: 予備日 + 観光候補
+## 2026-06-25(木) Day 4: Grand Canyon South Rim
 
 | 時間 | 予定 | 状態 |
 | --- | --- | --- |
-| 12:00 | WSOP #68 `$1,000 Ladies Championship` | 条件該当者のみ候補 |
-| 13:00 | WSOP Daily Deepstack NLH `$250` | 有力候補 |
-| 14:00 | WSOP Event #69 `$1,500 Seven Card Stud Hi-Lo` | 低優先 |
-| 16:00 | WSOP Daily Deepstack NLH `$400` | 有力候補 |
-| 20:00 | WSOP Daily Deepstack NLH `$200` | 夜候補 |
-| 午後/夜 | 観光 or キャッシュ | 有力候補 |
+| 早朝 | South Rimツアー集合、出発 | 参加確定 |
+| 昼-午後 | Grand Canyon South Rim観光 | 参加確定 |
+| 夜 | ラスベガス帰着、軽食、休息 | 推奨 |
 
 おすすめ方針:
 
-- 前日までにトーナメントを打てていれば、ここを観光・休憩日にする。
 - 6/25は[Grand Canyon South Rimツアー](grand-canyon.md)で確定。
 - South Rimは約14-15時間の長い日になるため、夜のポーカー/ショーは入れない。
 - 6/26(金)はフリー日なので、お土産、散歩、キャッシュ、トーナメントを候補にする。

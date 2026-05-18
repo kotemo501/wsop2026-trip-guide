@@ -1,6 +1,6 @@
 # WSOP 2026 ラスベガス旅のしおり
 
-友人2人で「世界のヨコサワ WSOP 2026 ツアー」に参加する前提の公開用しおりです。GitLabでIssueやMerge Requestを使って、予定・予算・候補を更新していくための土台です。
+友人2人で「世界のヨコサワ WSOP 2026 ツアー」に参加する前提の公開用しおりです。GitHub Pagesで公開し、予定・予算・候補・ToDoを更新していくための土台です。
 
 ## 旅の前提
 
@@ -41,7 +41,9 @@
 
 ## ファイル構成
 
-- [public/index.html](public/index.html): GitLab Pagesで公開する旅のしおり画面
+- [docs/trip-guide.md](docs/trip-guide.md): 公開ページの元原稿。まずここを整える
+- [index.html](index.html): GitHub Pagesで公開するトップページ
+- [public/index.html](public/index.html): 静的公開向けの同内容バックアップ
 - [docs/planning-board.md](docs/planning-board.md): 友人と画面を見ながら決める相談ページ
 - [docs/schedule.md](docs/schedule.md): 日別スケジュール案
 - [docs/options.md](docs/options.md): ポーカー・観光・食事・休憩の候補リスト
@@ -50,12 +52,13 @@
 - [docs/poker-plan.md](docs/poker-plan.md): WSOP、Daily Deepstack、キャッシュゲーム方針
 - [docs/tourism-and-food.md](docs/tourism-and-food.md): 観光・食事候補
 - [docs/grand-canyon.md](docs/grand-canyon.md): 6/25にGrand Canyonツアーを入れる場合の候補・費用・ToDo
+- [docs/flight-baggage.md](docs/flight-baggage.md): 飛行機・荷物FAQ
 - [docs/decisions.md](docs/decisions.md): 友人と決めることリスト
 - [docs/sources.md](docs/sources.md): 参照元
 
-## GitLabでの運用案
+## GitHubでの運用案
 
-- GitLab Pagesはこのリポジトリの`public/`を静的サイトとして公開する想定。HTML/CSS/ブラウザ上のJavaScriptは使えるが、サーバー側の処理やデータベースは標準では動かない。
+- GitHub Pagesはリポジトリ直下の`index.html`を公開する想定。HTML/CSS/ブラウザ上のJavaScriptは使えるが、サーバー側の処理やデータベースは標準では動かない。
 - Issue: 「6/24 Tag Teamの登録確認」「観光候補を決める」「1日ごとの予算上限」など、決める単位で立てる。
 - ラベル: `decision`, `poker`, `tourism`, `budget`, `booking`, `todo`
 - Merge Request: 予定を変えるときは `docs/schedule.md` を更新して、理由をMR本文に残す。
