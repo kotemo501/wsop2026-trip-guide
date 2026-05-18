@@ -117,6 +117,11 @@
 - GPA外貨宅配/オンラインストア: https://gpa-exchange-onlinestore.jp/
 - GPA外貨両替専門店: https://www.gpa-net.co.jp/ja/passenger-service/exchange/
 - SBI新生銀行 外貨宅配サービス: https://www.sbishinseibank.co.jp/service/takuhai/pop_gaika_pmc.html
+- SBI FXトレード 外貨宅配サービス: https://www.sbifxt.co.jp/delivery_service/index.html
+- 外貨両替ドルユーロ: https://doru.jp/
+- CVS Water category: https://www.cvs.com/shop/grocery/beverages/water
+- CVS Gold Emblem water: https://es.cvs.com/shop/grocery/beverages/water/q/Gold_Emblem/br
+- Walgreens water category: https://www.walgreens.com/q/waterers
 
 確認した主な内容:
 
@@ -126,6 +131,8 @@
 - アメリカは医療費が高いため、治療・救援費用、キャッシュレス医療、航空機遅延、携行品を確認する。
 - 外貨宅配はレート比較しやすいが、配送日数、送料、本人確認、受取方法を確認する。
 - USD現金は外貨宅配、成田空港GPA店頭、店舗両替、現地ATM予備で比較します。送料/手数料込みの実質レートで見る必要があります。
+- 外貨宅配はGPA Online、インターバンク、外貨両替ドルユーロ、SBI FXトレード、トラベレックスを比較候補にします。10万円相当以上で送料が無料または安くなるサービスが多いため、`$2,000`前後の準備と相性がよいです。
+- CVSでは24本パックの水がセール例`$2.99`、通常例`$5.99`、Gold Emblem 24本パックが`$4.99`例。Walgreensでは24本パック`$3.99-$6.99`例があります。現地滞在用の水は日本から持参せず、初日まとめ買いが合理的です。
 
 ## 食事価格メモ
 
