@@ -1,6 +1,6 @@
 # 参照元
 
-確認日: 2026-05-17
+確認日: 2026-05-18
 
 ## ツアー
 
@@ -12,9 +12,9 @@
 - 2026-06-22(月) 成田発、ラスベガス着
 - ホースシュー・ラスベガス5連泊
 - 2026-06-27(土) 夜に空港へ、2026-06-29(月) 朝成田着
-- ウェルカムパーティー: 2026-06-22(月) 18:00-21:00、Ellis Island Casino、別途 `$40`
+- ウェルカムパーティー: 2026-06-22(月) 18:00-21:00、Ellis Island Casino。参加費/支払い方法は未確認
 - WSOP公認フリーロール: 2026-06-26(金) 19:00、WSOP会場内、参加費無料
-- 旅行代金: エコノミー 379,000円、フルフラット 798,000円、1室1名利用追加 70,000円
+- 旅行代金は支払い済みのため、公開しおりでは現地予算のみ管理
 
 ## WSOP
 
@@ -53,6 +53,10 @@
 - Papillon Las Vegas helicopter tour prices: https://www.papillon.com/las-vegas-tours/helicopter-tours-from-las-vegas/price/
 - Maverick Helicopters Grand Canyon tours: https://www.flymaverick.com/grand-canyon
 - Las Vegas Direct South Rim Bus Tour: https://www.lasvegasdirect.com/grand-canyon-south-rim-bus-tour/
+- GrandCanyon.com South Rim Bus Tour: https://grandcanyon.com/tours/south-rim-tours/grand-canyon-south-rim-bus-tour/
+- Gray Line / Las Vegas Mania South Rim Bus Tour: https://www.lasvegas-mania.com/en/product/scenic/southrimbus
+- Sphere official: https://www.thesphere.com/
+- Ticketmaster Sphere venue: https://www.ticketmaster.com/sphere-billets-las-vegas/venue/189524
 
 確認した主な内容:
 
@@ -63,6 +67,9 @@
 - Grand Canyon Westはラスベガスから車で約2時間、ヘリで約30分のWest Rim候補です。West RimはGrand Canyon National ParkではなくHualapai Tribeの運営エリアです。
 - South Rimバスは`$107`前後から、約14.5時間のツアー例があります。6/25はSouth Rimで固定します。
 - West Rimやヘリは比較時に確認した参考情報で、今回の6/25候補からは外します。
+- GrandCanyon.comのSouth Rim Bus Tourには、14-15時間、ホテル送迎、昼食、72時間キャンセル条件の記載があります。
+- Gray Line系のSouth Rim Bus Tourには、主要ホテル送迎、予約確認、キャンセル条件、荷物制限の記載があります。
+- Sphere公式サイトは各公演のBuy Tickets導線をTicketmasterへ出しており、モバイルチケット、バッグポリシー、アクセス情報を確認できます。
 
 ## 周辺ポーカーシリーズ
 
@@ -84,3 +91,36 @@
 - チャーター便の発着時刻は最終日程表で変わる可能性があります。
 - WSOPの詳細、登録方法、開始時刻、Late Registration、会場ルールは出発前と現地で再確認してください。
 - Daily Deepstackはツアーページ上で `$100-$300` の案内がありますが、具体的な2026年日別詳細は現地または公式情報で再確認してください。
+
+## お金・保険・荷物
+
+- 日本税関 現金等の持出し/持込み: https://www.customs.go.jp/tetsuzuki/c-answer/pdf/FAX7305.pdf
+- CBP Currency Reporting: https://www.cbp.gov/travel/us-citizens/know-before-you-go/know-you-go-traveling-abroad
+- CBP Money and Other Monetary Instruments: https://www.cbp.gov/travel/international-visitors/kbyg/money
+- ZIPAIR 手荷物案内PDF: https://www.zipair.net/service/baggage/departures_after_October_29_2023_en.pdf
+- ZIPAIR Dangerous Goods List: https://www.zipair.net/service/baggage/rule/Dangerous%20Goods%20List%20and%20Label%20%28English%29.pdf
+- FAA PackSafe Batteries: https://www.faa.gov/hazmat/packsafe/airline-passengers-and-batteries
+- AIG損保 海外旅行保険: https://www.aig.co.jp/sonpo/personal/product/travel/ota
+- t@biho たびほ: https://tabiho.jp/
+- インターバンク 外貨宅配/郵送取引: https://www.interbank.co.jp/store/
+- トラベレックス・オンライン: https://www.travelex.co.jp/onlinex/hs-sonpo
+
+確認した主な内容:
+
+- 日本は100万円相当超、米国は`$10,000`超の現金等で申告が必要。
+- ZIPAIR一般ルールでは機内持込2個合計7kg、受託手荷物は1個30kg/3辺203cmを上限目安にする。
+- モバイルバッテリーや予備リチウム電池は機内持込扱いで準備する。
+- アメリカは医療費が高いため、治療・救援費用、キャッシュレス医療、航空機遅延、携行品を確認する。
+- 外貨宅配はレート比較しやすいが、配送日数、送料、本人確認、受取方法を確認する。
+
+## 食事価格メモ
+
+- Ramen Sora menu例: https://places.singleplatform.com/ramen-sora/menu
+- Shang Artisan Noodle menu例: https://shangartisannoodle.shop/menu
+- Shang Artisan Noodle menu例: https://menutoeat.com/shang-artisan-noodle/
+
+確認した主な内容:
+
+- ラーメン本体は`$11-$15`台の例があるが、税/チップ/サイド込みでは1人`$20-$35`程度を見る。
+- 中華・麺類は`$16-$21`台、サイド`$9-$13`台の例がある。1人1品なら`$25-$40`、シェア多めなら`$40-$70+`を見る。
+- メニュー価格は変わるため、店名が決まったら最新メニューで更新する。
