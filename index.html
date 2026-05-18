@@ -24,7 +24,7 @@
 
     <main id="top">
       <section class="hero" aria-label="旅行概要">
-        <img src="assets/wsop-vegas-hero.png" alt="ラスベガスとポーカーをイメージした旅行ビジュアル">
+        <img src="assets/las-vegas-night.jpg" alt="ラスベガス夜景の旅行ビジュアル" data-hero-image>
         <div class="hero-shade"></div>
         <div class="hero-content">
           <p class="tour-label">2026.06.22 - 06.27 / Las Vegas</p>
@@ -36,14 +36,20 @@
           <strong>2名 / Horseshoe</strong>
           <small>ZIPAIRチャーター / WSOP / South Rim / Sphere</small>
         </aside>
+        <div class="hero-dots" aria-hidden="true">
+          <span class="is-active"></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </section>
 
       <section class="quick-strip" aria-label="決定済み予定">
-        <article><span>6/22</span><strong>到着・ウェルカムパーティー</strong><small>Ellis Island 18:00-21:00</small></article>
-        <article><span>6/23</span><strong>$250 Daily</strong><small>13:00。飛んだらキャッシュ</small></article>
-        <article><span>6/24</span><strong>Tag Team</strong><small>Event #66 / 12:00</small></article>
-        <article><span>6/25</span><strong>Grand Canyon</strong><small>South Rim 終日</small></article>
-        <article><span>6/27</span><strong>Sphere</strong><small>The Wizard of Oz 14:00</small></article>
+        <article data-view-jump="schedule"><span>6/22</span><strong>到着・ウェルカムパーティー</strong><small>Ellis Island 18:00-21:00</small></article>
+        <article data-view-jump="schedule"><span>6/23</span><strong>$250 Daily</strong><small>13:00。飛んだらキャッシュ</small></article>
+        <article data-view-jump="schedule"><span>6/24</span><strong>Tag Team</strong><small>Event #66 / 12:00</small></article>
+        <article data-view-jump="schedule"><span>6/25</span><strong>Grand Canyon</strong><small>South Rim 終日</small></article>
+        <article data-view-jump="schedule"><span>6/27</span><strong>Sphere</strong><small>The Wizard of Oz 14:00</small></article>
       </section>
 
       <section class="layout" aria-label="旅のしおり">
@@ -56,7 +62,7 @@
             <li><b>注意点</b><span>最終日荷物、Sphereバッグ、WSOP登録</span></li>
           </ol>
           <div class="side-pass">
-            <img src="assets/wsop-vegas-hero.png" alt="">
+            <img src="assets/las-vegas-night.jpg" alt="">
             <div>
               <span>Trip Base</span>
               <b>Horseshoe Las Vegas</b>
@@ -94,7 +100,7 @@
 
             <div class="experience-board" aria-label="旅のハイライト">
               <article class="experience-card is-large">
-                <img src="assets/wsop-vegas-hero.png" alt="ラスベガスとポーカーの旅のイメージ">
+                <img src="assets/wsop-poker-table.jpg" alt="WSOPとポーカーの旅のイメージ">
                 <div>
                   <span>WSOP Base</span>
                   <h3>Horseshoeを拠点にポーカーを遊ぶ</h3>
@@ -102,7 +108,7 @@
                 </div>
               </article>
               <article class="experience-card">
-                <img src="assets/wsop-vegas-hero.png" alt="Grand Canyon South Rimの旅のイメージ">
+                <img src="assets/grand-canyon-south-rim.jpg" alt="Grand Canyon South Rimの旅のイメージ">
                 <div>
                   <span>Day Trip</span>
                   <h3>South Rimで1日観光</h3>
@@ -110,7 +116,7 @@
                 </div>
               </article>
               <article class="experience-card">
-                <img src="assets/wsop-vegas-hero.png" alt="Sphere公演の旅のイメージ">
+                <img src="assets/sphere-las-vegas.jpg" alt="Sphere公演の旅のイメージ">
                 <div>
                   <span>Final Day</span>
                   <h3>Sphere 14:00から空港へ</h3>
@@ -135,7 +141,7 @@
             </div>
 
             <div class="timeline">
-              <article>
+              <article class="timeline-night">
                 <div class="timeline-photo" aria-hidden="true"></div>
                 <time>6/22 Mon</time>
                 <h3>到着・ウェルカムパーティー</h3>
@@ -143,7 +149,7 @@
                 <div><b>18:00</b><span>Ellis Island Casino ウェルカムパーティー。</span></div>
                 <div><b>夜</b><span>翌日のDailyに備えて軽め。無理にカジノで粘らない。</span></div>
               </article>
-              <article>
+              <article class="timeline-poker">
                 <div class="timeline-photo" aria-hidden="true"></div>
                 <time>6/23 Tue</time>
                 <h3>Daily Deepstack + キャッシュ</h3>
@@ -151,7 +157,7 @@
                 <div><b>13:00</b><span>$250 Daily Deepstack NLHに参加。</span></div>
                 <div><b>飛んだら</b><span>$1/$2キャッシュ候補。勝ち残ったら夜予定は入れない。</span></div>
               </article>
-              <article>
+              <article class="timeline-poker">
                 <div class="timeline-photo" aria-hidden="true"></div>
                 <time>6/24 Wed</time>
                 <h3>Tag Team</h3>
@@ -159,7 +165,7 @@
                 <div><b>12:00</b><span>Event #66 $1,000 No-Limit Hold'em Tag Team。</span></div>
                 <div><b>夜</b><span>結果と体力次第。翌日のSouth Rimが早朝なので休息優先。</span></div>
               </article>
-              <article>
+              <article class="timeline-canyon">
                 <div class="timeline-photo" aria-hidden="true"></div>
                 <time>6/25 Thu</time>
                 <h3>Grand Canyon South Rim</h3>
@@ -167,7 +173,7 @@
                 <div><b>日中</b><span>South Rim観光。昼食込み候補が多いが、予約内容を確認。</span></div>
                 <div><b>夜</b><span>21:30-23:00帰着目安。帰着後は予定を入れない。</span></div>
               </article>
-              <article>
+              <article class="timeline-night">
                 <div class="timeline-photo" aria-hidden="true"></div>
                 <time>6/26 Fri</time>
                 <h3>フリー日</h3>
@@ -175,7 +181,7 @@
                 <div><b>昼</b><span>お土産、カジノ散歩、Daily、キャッシュから体力で選ぶ。</span></div>
                 <div><b>夜</b><span>最終日に備えて荷物整理。空港移動とチェックアウト準備。</span></div>
               </article>
-              <article>
+              <article class="timeline-sphere">
                 <div class="timeline-photo" aria-hidden="true"></div>
                 <time>6/27 Sat</time>
                 <h3>Sphere + 最終日</h3>
@@ -317,7 +323,7 @@
 
     <footer class="footer">
       <span>WSOP 2026 Trip Guide</span>
-      <span>Travel preparation and on-site pocket guide</span>
+      <span>Photos: Wikimedia Commons / project generated asset</span>
     </footer>
 
     <script src="app.js"></script>

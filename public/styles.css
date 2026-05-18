@@ -119,6 +119,13 @@ p {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  opacity: 1;
+  transition: opacity 520ms ease, transform 900ms ease;
+}
+
+.hero img.is-changing {
+  opacity: 0.22;
+  transform: scale(1.04);
 }
 
 .hero-shade {
@@ -206,6 +213,25 @@ h3 {
   line-height: 1.15;
 }
 
+.hero-dots {
+  position: absolute;
+  right: clamp(16px, 4vw, 54px);
+  bottom: 18px;
+  display: flex;
+  gap: 7px;
+}
+
+.hero-dots span {
+  width: 34px;
+  height: 4px;
+  border-radius: 999px;
+  background: rgba(255, 253, 248, 0.34);
+}
+
+.hero-dots span.is-active {
+  background: var(--gold);
+}
+
 .quick-strip,
 .layout {
   width: min(1180px, calc(100% - 32px));
@@ -226,6 +252,13 @@ h3 {
   border-radius: 8px;
   background: var(--panel);
   box-shadow: var(--shadow);
+  cursor: pointer;
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.quick-strip article:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 24px 48px rgba(17, 26, 40, 0.18);
 }
 
 .quick-strip span,
@@ -357,6 +390,19 @@ h3 {
 
 .view-panel.is-active {
   display: block;
+  animation: panel-in 240ms ease both;
+}
+
+@keyframes panel-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .panel-head {
@@ -422,6 +468,11 @@ h3 {
   height: 100%;
   object-fit: cover;
   transform: scale(1.02);
+  transition: transform 700ms ease;
+}
+
+.experience-card:hover img {
+  transform: scale(1.08);
 }
 
 .experience-card::after {
@@ -524,27 +575,29 @@ h3 {
   margin: -16px -16px 16px;
   background:
     linear-gradient(0deg, rgba(17, 26, 40, 0.58), rgba(17, 26, 40, 0.06)),
-    url("assets/wsop-vegas-hero.png") center / cover;
+    url("assets/las-vegas-night.jpg") center / cover;
 }
 
-.timeline article:nth-child(2) .timeline-photo {
-  background-position: 42% center;
+.timeline-poker .timeline-photo {
+  background-image:
+    linear-gradient(0deg, rgba(17, 26, 40, 0.58), rgba(17, 26, 40, 0.06)),
+    url("assets/wsop-poker-table.jpg");
 }
 
-.timeline article:nth-child(3) .timeline-photo {
-  background-position: 58% center;
+.timeline-canyon .timeline-photo {
+  background-image:
+    linear-gradient(0deg, rgba(17, 26, 40, 0.58), rgba(17, 26, 40, 0.06)),
+    url("assets/grand-canyon-south-rim.jpg");
 }
 
-.timeline article:nth-child(4) .timeline-photo {
-  background-position: 72% center;
+.timeline-sphere .timeline-photo {
+  background-image:
+    linear-gradient(0deg, rgba(17, 26, 40, 0.58), rgba(17, 26, 40, 0.06)),
+    url("assets/sphere-las-vegas.jpg");
 }
 
-.timeline article:nth-child(5) .timeline-photo {
-  background-position: 36% center;
-}
-
-.timeline article:nth-child(6) .timeline-photo {
-  background-position: 82% center;
+.timeline-night .timeline-photo {
+  background-position: center;
 }
 
 .timeline time {
@@ -701,6 +754,11 @@ h3 {
     right: auto;
     bottom: auto;
     margin-top: 22px;
+  }
+
+  .hero-dots {
+    left: clamp(24px, 5vw, 64px);
+    right: auto;
   }
 
   .quick-strip,
