@@ -13,12 +13,11 @@
         <span class="brand-mark">WSOP</span>
         <span>2026 Las Vegas Trip</span>
       </a>
-      <nav class="site-nav" aria-label="ページ内ナビゲーション">
-        <button class="nav-button is-active" type="button" data-view="overview">概要</button>
-        <button class="nav-button" type="button" data-view="schedule">日程</button>
-        <button class="nav-button" type="button" data-view="choices">相談</button>
-        <button class="nav-button" type="button" data-view="budget">予算</button>
-        <button class="nav-button" type="button" data-view="prep">準備</button>
+      <nav class="site-nav" aria-label="ページ内ナビゲーション" role="tablist">
+        <button class="nav-button is-active" id="tab-choices" type="button" role="tab" aria-selected="true" aria-controls="choices" data-view="choices">相談</button>
+        <button class="nav-button" id="tab-schedule" type="button" role="tab" aria-selected="false" aria-controls="schedule" data-view="schedule">日程</button>
+        <button class="nav-button" id="tab-budget" type="button" role="tab" aria-selected="false" aria-controls="budget" data-view="budget">予算</button>
+        <button class="nav-button" id="tab-prep" type="button" role="tab" aria-selected="false" aria-controls="prep" data-view="prep">準備</button>
       </nav>
     </header>
 
@@ -28,8 +27,8 @@
         <div class="hero-shade"></div>
         <div class="hero-content">
           <p class="tour-label">ZIPAIR Charter Tour / 2 Travelers</p>
-          <h1>WSOPとラスベガスを遊び切る、6日間の作戦会議。</h1>
-          <p class="hero-lead">6/23 Daily、6/24 Tag Team、6/25 South Rim、6/27 Sphere。決定済みを軸に、残りの選択を友人と詰めるための旅のしおり。</p>
+          <h1>WSOP 2026 ラスベガス旅のしおり</h1>
+          <p class="hero-lead">予約済みのツアーを土台に、South Rim、Sphere、保険、USD現金だけを友人と決め切るための相談ボード。</p>
         </div>
         <aside class="hero-summary" aria-label="予算概要">
           <span>現地予算の標準</span>
@@ -48,68 +47,62 @@
 
       <section class="workspace" aria-label="旅のしおり">
         <aside class="side-panel">
-          <p class="eyebrow">Trip Status</p>
-          <h2>決定済み</h2>
+          <p class="eyebrow">Dashboard</p>
+          <h2>次に見るもの</h2>
           <dl>
-            <div><dt>出発</dt><dd>2026-06-22 成田</dd></div>
-            <div><dt>滞在</dt><dd>Horseshoe 5泊</dd></div>
-            <div><dt>帰国便</dt><dd>固定。6/27夜に空港へ</dd></div>
-            <div><dt>食事方針</dt><dd>節約食 + 聖地巡礼だけ外食</dd></div>
+            <div><dt>友人と決める</dt><dd>South Rim / Sphere / 保険 / USD</dd></div>
+            <div><dt>出発前に潰す</dt><dd>WSOP登録・荷物・外貨</dd></div>
+            <div><dt>現地で見る</dt><dd>日別予定・最終日導線</dd></div>
+            <div><dt>固定事項</dt><dd>6/24 Tag Team、6/25 South Rim方針、6/27 Sphere</dd></div>
           </dl>
           <div class="side-note">
-            <b>このページの使い方</b>
-            <p>まず「相談」で未決を決める。現地では「日程」と「準備」だけ見れば動ける状態にする。</p>
+            <b>残りの未決</b>
+            <p>ツアー会社、Sphere座席、保険の追加有無、USD現金の用意方法。ここだけ決まればしおりとして使える。</p>
           </div>
           <button class="reset-button" type="button" data-reset>ToDoをリセット</button>
         </aside>
 
         <div class="view-stack">
-          <section class="view-panel is-active" id="overview" data-view-panel="overview">
-            <div class="panel-head">
-              <p class="eyebrow">Overview</p>
-              <h2>この旅でやりたいこと</h2>
-              <p>観光、ポーカー、節約、帰国便を同時に守るための優先順位。迷ったらこの順番で判断する。</p>
+          <section class="view-panel is-active" id="choices" role="tabpanel" aria-labelledby="tab-choices" data-view-panel="choices">
+            <div class="panel-head compact">
+              <p class="eyebrow">Decision Board</p>
+              <h2>友人と決める画面</h2>
+              <p>相談する人、準備する人、現地で見る人で情報を分ける。未決は4件だけ。</p>
             </div>
-            <div class="feature-grid">
+            <div class="persona-grid">
               <article>
-                <span>01</span>
-                <h3>ポーカーは参加しやすい枠中心</h3>
-                <p>$250 Daily、Tag Team、キャッシュ、フリーロール。帰国便に干渉する長期戦は避ける。</p>
+                <span>相談する2人</span>
+                <h3>今日決めたいこと</h3>
+                <p>South Rimの予約先、Sphereの座席予算、保険を追加するか、USD現金をどう用意するか。</p>
               </article>
               <article>
-                <span>02</span>
-                <h3>体験にお金を寄せる</h3>
-                <p>通常食は軽く済ませ、Grand Canyon、Sphere、お土産、ポーカー体験に回す。</p>
+                <span>出発前に準備</span>
+                <h3>失敗すると困ること</h3>
+                <p>Tag Teamの登録導線、Caesars Rewards、WSOP LIVE、外貨、保険、荷物ルール。</p>
               </article>
               <article>
-                <span>03</span>
-                <h3>最終日は観光と移動優先</h3>
-                <p>6/27はSphereと他カジノ見学。チェックアウト後の荷物管理を先に決める。</p>
+                <span>現地で見る</span>
+                <h3>当日判断すること</h3>
+                <p>6/26フリー日の過ごし方、キャッシュを打つか、休むか、土産とカジノ散歩をどこまで入れるか。</p>
               </article>
             </div>
-            <div class="guide-grid">
-              <article>
-                <h3>旅のルール</h3>
-                <ul>
-                  <li>帰国便に影響する長期トーナメントは入れない。</li>
-                  <li>キャッシュは$1/$2想定。上限は各自で決め、しおりでは現金目安だけ管理する。</li>
-                  <li>食事はうまさ目的ではなく、体力維持と節約を優先する。</li>
-                  <li>予約が必要な体験はSouth RimとSphereに絞る。</li>
-                </ul>
-              </article>
-              <article>
-                <h3>現地で見る場所</h3>
-                <ul>
-                  <li>今日のメイン予定、集合時刻、移動時間。</li>
-                  <li>持ち出す現金、カード、パスポートの扱い。</li>
-                  <li>翌日に響くか。眠い、疲れた、飲んだら撤退。</li>
-                  <li>写真を撮る場所と、お土産を買うタイミング。</li>
-                </ul>
-              </article>
+            <div class="choice-list">
+              <article><span>未決 1</span><h3>South Rimツアー</h3><p>おすすめ: Horseshoe集合あり、South Rim、昼食込み、実質$200-$320+程度。聞くこと: 早朝集合・長時間移動OKか、非米国居住者fee込みで$300前後まで許容できるか。</p></article>
+              <article><span>未決 2</span><h3>Sphere座席</h3><p>おすすめ: 中央寄り200/300番台。高ければ中央寄り400番台。避ける: 100番台後方のobstructed view、極端な端席。聞くこと: $250+まで出すか、$150-$200台に抑えるか。</p></article>
+              <article><span>未決 3</span><h3>海外旅行保険</h3><p>おすすめ: クレカ付帯の治療費用とキャッシュレス診療を確認し、薄ければt@biho/AIGで追加。費用目安は6,000円-15,000円+。</p></article>
+              <article><span>未決 4</span><h3>USD現金</h3><p>おすすめ: 1人$1,800-$2,200をネット外貨宅配で準備。聞くこと: 各自で用意するか、2人分まとめて注文するか。</p></article>
+            </div>
+            <div class="decision-table">
+              <h3>決定済み / 未決</h3>
+              <div><b>決定</b><span>6/23 Daily</span><small>13:00 $250 Daily Deepstack NLH。飛んだらキャッシュ候補</small></div>
+              <div><b>決定</b><span>6/24 Tag Team</span><small>Event #66、12:00、$1,000/team。10:30-11:00到着目安</small></div>
+              <div><b>決定</b><span>6/27 Sphere</span><small>The Wizard of Oz 14:00。座席と総額だけ決める</small></div>
+              <div><b>未決</b><span>South Rimツアー会社</span><small>Horseshoe集合、総額、非米国居住者feeを確認</small></div>
+              <div><b>未決</b><span>保険とUSD現金</span><small>クレカ付帯確認、外貨宅配を各自/まとめ注文どちらにするか</small></div>
             </div>
           </section>
 
-          <section class="view-panel" id="schedule" data-view-panel="schedule">
+          <section class="view-panel" id="schedule" role="tabpanel" aria-labelledby="tab-schedule" data-view-panel="schedule" hidden>
             <div class="panel-head compact">
               <p class="eyebrow">Schedule</p>
               <h2>日別カード</h2>
@@ -118,10 +111,10 @@
             <div class="day-grid">
               <article class="day-card fixed"><time>6/22 Mon</time><h3>到着・パーティー</h3><p>18:00-21:00 Ellis Island Casino。夜は軽め。ホテル周辺、会場導線、CVS系の買い出しだけ済ませる。</p><b>やること: 水・軽食・翌日の動線確認</b></article>
               <article class="day-card fixed"><time>6/23 Tue</time><h3>13:00 Daily</h3><p>$250 Daily参加。飛んだら$1/$2キャッシュ候補。勝ち残ったら夜予定は入れず、翌日のTag Team優先。</p><b>確認: 現金目安と体力</b></article>
-              <article class="day-card fixed"><time>6/24 Wed</time><h3>Tag Team</h3><p>2人1組の本命体験。大会詳細は公式/ツアー案内で未公開なら不明扱い。夜は結果と体力で判断。</p><b>確認: 登録方法・集合時刻</b></article>
-              <article class="day-card fixed"><time>6/25 Thu</time><h3>South Rim</h3><p>終日ツアー。早朝出発、夜帰着想定。帰着後にポーカーやショーは入れない。</p><b>持ち物: 上着・水・酔い止め</b></article>
+              <article class="day-card fixed"><time>6/24 Wed</time><h3>Tag Team</h3><p>Event #66 $1,000 No-Limit Hold'em Tag Team。12:00開始、$500/人想定。初回Verificationがあるので10:30-11:00到着目安。</p><b>必要: WSOP LIVE / Caesars Rewards / パスポート</b></article>
+              <article class="day-card fixed"><time>6/25 Thu</time><h3>South Rim</h3><p>終日ツアー。Horseshoe集合なら6:40前後例、帰着は21:30-23:00目安。帰着後にポーカーやショーは入れない。</p><b>持ち物: 上着・水・酔い止め</b></article>
               <article class="day-card"><time>6/26 Fri</time><h3>フリー日</h3><p>Grand Canyon翌日。休息、お土産、カジノ散歩、13:00 Daily、19:00フリーロール、キャッシュを候補で残す。</p><b>固定しない: 当日の体力で選ぶ</b></article>
-              <article class="day-card fixed"><time>6/27 Sat</time><h3>Sphere + カジノ見学</h3><p>14:00 Sphere。空港移動と荷物管理の詳細は未確認なので、追ってツアー案内で確認する。</p><b>決める: 荷物と空港集合</b></article>
+              <article class="day-card fixed"><time>6/27 Sat</time><h3>Sphere + カジノ見学</h3><p>10:00チェックアウト、Horseshoe Bell Deskに荷物預け想定。14:00 Sphere、15:30-15:45退場、ホテルで荷物回収して空港集合へ。</p><b>注意: Sphereは大きいバッグ不可</b></article>
             </div>
             <div class="mini-itinerary">
               <h3>当日の基本ルーチン</h3>
@@ -131,31 +124,7 @@
             </div>
           </section>
 
-          <section class="view-panel" id="choices" data-view-panel="choices">
-            <div class="panel-head compact">
-              <p class="eyebrow">Decision Board</p>
-              <h2>相談すること</h2>
-              <p>ここは友人と画面を見ながら決めるための場所。選択肢を一つずつ潰す。</p>
-            </div>
-            <div class="choice-list">
-              <article><span>相談</span><h3>South Rimツアー</h3><p>おすすめ: Horseshoe集合あり、実質$200-$320+程度。聞くこと: 早朝集合・長時間移動OKか、非米国居住者fee込みで$300前後まで許容できるか。</p></article>
-              <article><span>相談</span><h3>Sphere座席</h3><p>おすすめ: 中央寄り200/300番台。高ければ中央寄り400番台。聞くこと: 体験重視で$250+まで出すか、$150-$200台に抑えるか。</p></article>
-              <article><span>相談</span><h3>海外旅行保険</h3><p>おすすめ: クレカ付帯を確認し、薄ければt@biho/AIGで追加。聞くこと: 補償内容を見せてもらえるか、保険料6,000円-15,000円+を許容するか。</p></article>
-              <article><span>相談</span><h3>USD現金</h3><p>おすすめ: 1人$1,800-$2,200をネット外貨宅配で準備。聞くこと: 各自で用意するか、2人分まとめて注文するか。</p></article>
-              <article><span>決定</span><h3>聖地巡礼ご飯</h3><p>ラーメン1回 + 中華1回を予算に含める。注文量は当日調整。細かいメニューは事前に決めない。</p></article>
-              <article><span>決定</span><h3>水</h3><p>Horseshoe周辺のCVS/Walgreensで現地調達。24本パックが$3-$8台目安で、初日に買えばよい。</p></article>
-            </div>
-            <div class="decision-table">
-              <h3>決定済み / 未決</h3>
-              <div><b>決定</b><span>水</span><small>現地CVS/Walgreensで調達。初日に24本パック等を買う</small></div>
-              <div><b>決定</b><span>聖地巡礼ご飯</span><small>ラーメン1回 + 中華1回で予算計上。注文量は当日</small></div>
-              <div><b>未決</b><span>South Rimツアー会社</span><small>Horseshoe集合、総額、非米国居住者feeを確認</small></div>
-              <div><b>未決</b><span>Sphere座席</span><small>体験重視か価格重視かを相談</small></div>
-              <div><b>未決</b><span>保険とUSD現金</span><small>クレカ付帯確認、外貨宅配を各自/まとめ注文どちらにするか</small></div>
-            </div>
-          </section>
-
-          <section class="view-panel" id="budget" data-view-panel="budget">
+          <section class="view-panel" id="budget" role="tabpanel" aria-labelledby="tab-budget" data-view-panel="budget" hidden>
             <div class="panel-head compact">
               <p class="eyebrow">Budget</p>
               <h2>予算</h2>
@@ -179,7 +148,7 @@
             </div>
           </section>
 
-          <section class="view-panel" id="prep" data-view-panel="prep">
+          <section class="view-panel" id="prep" role="tabpanel" aria-labelledby="tab-prep" data-view-panel="prep" hidden>
             <div class="panel-head compact">
               <p class="eyebrow">Preparation</p>
               <h2>出発前チェック</h2>
@@ -195,6 +164,18 @@
               <label><input type="checkbox" data-task="cashprep"> 外貨宅配・空港両替・店舗両替の比較</label>
               <label><input type="checkbox" data-task="luggage"> 6/27チェックアウト後の荷物管理</label>
               <label><input type="checkbox" data-task="airport"> 最終日の空港移動と集合時刻</label>
+            </div>
+            <div class="person-board">
+              <article>
+                <span>自分</span>
+                <h3>確認済みにするもの</h3>
+                <p>ESTA期限、パスポート番号一致、クレカ付帯保険、USD現金、WSOP LIVE/Caesars Rewards。</p>
+              </article>
+              <article>
+                <span>友人</span>
+                <h3>聞いて埋めるもの</h3>
+                <p>ESTA期限、パスポート有効期限、保険の補償額、South Rim/Sphere予算、USD現金の準備方法。</p>
+              </article>
             </div>
             <div class="packing-grid">
               <article>
