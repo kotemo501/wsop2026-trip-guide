@@ -54,9 +54,17 @@
 - Maverick Helicopters Grand Canyon tours: https://www.flymaverick.com/grand-canyon
 - Las Vegas Direct South Rim Bus Tour: https://www.lasvegasdirect.com/grand-canyon-south-rim-bus-tour/
 - GrandCanyon.com South Rim Bus Tour: https://grandcanyon.com/tours/south-rim-tours/grand-canyon-south-rim-bus-tour/
+- Scenic South Rim Bus Tour: https://www.scenic.com/tours/south-rim-bus-tour
+- Canyon Tours South Rim Bus Tour: https://www.canyontours.com/grand-canyon-south-rim-bus-tour/
+- Grand Canyon Tour Company South Rim Bus Tour: https://grandcanyontourcompany.com/product/south-rim-bus-tour/
+- GC Tours hotel pickup locations: https://gc.tours/hotels
 - Gray Line / Las Vegas Mania South Rim Bus Tour: https://www.lasvegas-mania.com/en/product/scenic/southrimbus
 - Sphere official: https://www.thesphere.com/
 - Ticketmaster Sphere venue: https://www.ticketmaster.com/sphere-billets-las-vegas/venue/189524
+- The Wizard of Oz at Sphere 2026-06-27 14:00: https://www.ticketmaster.com/the-wizard-of-oz-at-sphere-las-vegas-nevada-06-27-2026/event/17006365F03EA980
+- The Wizard of Oz at Sphere official: https://www.thesphere.com/shows/wizard-of-oz-experience
+- NPS nonresident fees: https://home.nps.gov/aboutus/nonresident-fees.htm
+- NPS entrance fees by park: https://www.nps.gov/aboutus/entrance-fee-prices.htm
 
 確認した主な内容:
 
@@ -69,7 +77,9 @@
 - West Rimやヘリは比較時に確認した参考情報で、今回の6/25候補からは外します。
 - GrandCanyon.comのSouth Rim Bus Tourには、14-15時間、ホテル送迎、昼食、72時間キャンセル条件の記載があります。
 - Gray Line系のSouth Rim Bus Tourには、主要ホテル送迎、予約確認、キャンセル条件、荷物制限の記載があります。
+- 2026年はGrand Canyon National Parkで非米国居住者16歳以上に`$100`の追加feeがかかるため、ツアー代に含まれるか別徴収か要確認です。
 - Sphere公式サイトは各公演のBuy Tickets導線をTicketmasterへ出しており、モバイルチケット、バッグポリシー、アクセス情報を確認できます。
+- The Wizard of Oz at Sphereは約75分、ドアオープンは開演45分前、late seating不可です。
 
 ## 周辺ポーカーシリーズ
 
@@ -104,6 +114,9 @@
 - t@biho たびほ: https://tabiho.jp/
 - インターバンク 外貨宅配/郵送取引: https://www.interbank.co.jp/store/
 - トラベレックス・オンライン: https://www.travelex.co.jp/onlinex/hs-sonpo
+- GPA外貨宅配/オンラインストア: https://gpa-exchange-onlinestore.jp/
+- GPA外貨両替専門店: https://www.gpa-net.co.jp/ja/passenger-service/exchange/
+- SBI新生銀行 外貨宅配サービス: https://www.sbishinseibank.co.jp/service/takuhai/pop_gaika_pmc.html
 
 確認した主な内容:
 
@@ -112,10 +125,14 @@
 - モバイルバッテリーや予備リチウム電池は機内持込扱いで準備する。
 - アメリカは医療費が高いため、治療・救援費用、キャッシュレス医療、航空機遅延、携行品を確認する。
 - 外貨宅配はレート比較しやすいが、配送日数、送料、本人確認、受取方法を確認する。
+- USD現金は外貨宅配、成田空港GPA店頭、店舗両替、現地ATM予備で比較します。送料/手数料込みの実質レートで見る必要があります。
 
 ## 食事価格メモ
 
+- Ramen Sora official: https://www.ramensoralasvegas.com/
 - Ramen Sora menu例: https://places.singleplatform.com/ramen-sora/menu
+- Monta Ramen menu例: https://www.doordash.com/store/monta-ramen-las-vegas-71512
+- Ping Pang Pong menu例: https://places.singleplatform.com/ping-pang-pong/menu
 - Shang Artisan Noodle menu例: https://shangartisannoodle.shop/menu
 - Shang Artisan Noodle menu例: https://menutoeat.com/shang-artisan-noodle/
 
