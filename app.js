@@ -14,18 +14,33 @@ const activateView = (target) => {
   });
 };
 
+const viewHash = (target) => `#view-${target}`;
+
 navButtons.forEach((button) => {
   button.addEventListener("click", () => {
     activateView(button.dataset.view);
+    history.replaceState(null, "", viewHash(button.dataset.view));
   });
 });
 
 document.querySelectorAll("[data-view-jump]").forEach((item) => {
   item.addEventListener("click", () => {
     activateView(item.dataset.viewJump);
+    history.replaceState(null, "", viewHash(item.dataset.viewJump));
     document.querySelector(".layout")?.scrollIntoView({ behavior: "smooth", block: "start" });
   });
 });
+
+const rawHash = window.location.hash.slice(1);
+const initialView = rawHash.startsWith("view-") ? rawHash.replace("view-", "") : rawHash;
+if (initialView && document.querySelector(`[data-view-panel="${initialView}"]`)) {
+  activateView(initialView);
+  if (rawHash.startsWith("view-")) {
+    window.requestAnimationFrame(() => {
+      window.scrollTo({ left: 0, top: 0 });
+    });
+  }
+}
 
 const heroImage = document.querySelector("[data-hero-image]");
 const heroDots = document.querySelectorAll(".hero-dots span");
@@ -36,7 +51,7 @@ const heroSlides = [
   "assets/horseshoe-entrance.jpg",
   "assets/grand-canyon-south-rim.jpg",
   "assets/fashion-show-mall.jpg",
-  "assets/sphere-las-vegas.jpg",
+  "assets/sphere-las-vegas-bright.jpg",
 ];
 let heroIndex = 0;
 

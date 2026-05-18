@@ -132,8 +132,8 @@ p {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(90deg, rgba(17, 26, 40, 0.94), rgba(17, 26, 40, 0.62) 54%, rgba(17, 26, 40, 0.18)),
-    linear-gradient(0deg, rgba(17, 26, 40, 0.9), rgba(17, 26, 40, 0.08) 60%);
+    linear-gradient(90deg, rgba(17, 26, 40, 0.68), rgba(17, 26, 40, 0.34) 54%, rgba(17, 26, 40, 0.04)),
+    linear-gradient(0deg, rgba(17, 26, 40, 0.56), rgba(17, 26, 40, 0) 60%);
 }
 
 .hero-content {
@@ -263,7 +263,7 @@ h3 {
   inset: 0;
   content: "";
   background: var(--quick-image) center / cover;
-  opacity: 0.22;
+  opacity: 0.32;
   transition: opacity 180ms ease, transform 240ms ease;
 }
 
@@ -271,7 +271,7 @@ h3 {
   position: absolute;
   inset: 0;
   content: "";
-  background: linear-gradient(0deg, rgba(255, 253, 248, 0.94), rgba(255, 253, 248, 0.48));
+  background: linear-gradient(0deg, rgba(255, 253, 248, 0.92), rgba(255, 253, 248, 0.3));
 }
 
 .quick-strip article > * {
@@ -285,7 +285,7 @@ h3 {
 }
 
 .quick-strip article:hover::before {
-  opacity: 0.34;
+  opacity: 0.46;
   transform: scale(1.05);
 }
 
@@ -306,7 +306,7 @@ h3 {
 }
 
 .quick-sphere {
-  --quick-image: url("assets/sphere-las-vegas.jpg");
+  --quick-image: url("assets/sphere-las-vegas-bright.jpg");
 }
 
 .quick-strip span,
@@ -487,7 +487,7 @@ h3 {
   margin: -16px -16px 14px;
   border-radius: 8px 8px 0 0;
   background:
-    linear-gradient(0deg, rgba(17, 26, 40, 0.36), rgba(17, 26, 40, 0.04)),
+    linear-gradient(0deg, rgba(17, 26, 40, 0.18), rgba(17, 26, 40, 0)),
     var(--card-image) center / cover;
 }
 
@@ -608,7 +608,7 @@ h3 {
   margin: -16px -16px 16px;
   border-radius: 8px 8px 0 0;
   background:
-    linear-gradient(0deg, rgba(17, 26, 40, 0.46), rgba(17, 26, 40, 0.04)),
+    linear-gradient(0deg, rgba(17, 26, 40, 0.2), rgba(17, 26, 40, 0)),
     var(--board-image) center / cover;
 }
 
@@ -670,44 +670,44 @@ h3 {
   height: 152px;
   margin: -16px -16px 16px;
   background:
-    linear-gradient(0deg, rgba(17, 26, 40, 0.58), rgba(17, 26, 40, 0.06)),
+    linear-gradient(0deg, rgba(17, 26, 40, 0.22), rgba(17, 26, 40, 0)),
     url("assets/las-vegas-night.jpg") center / cover;
 }
 
 .timeline-arrival .timeline-photo {
   background-image:
-    linear-gradient(0deg, rgba(17, 26, 40, 0.58), rgba(17, 26, 40, 0.06)),
+    linear-gradient(0deg, rgba(17, 26, 40, 0.22), rgba(17, 26, 40, 0)),
     url("assets/ellis-island-casino.jpg");
 }
 
 .timeline-daily .timeline-photo {
   background-image:
-    linear-gradient(0deg, rgba(17, 26, 40, 0.58), rgba(17, 26, 40, 0.06)),
+    linear-gradient(0deg, rgba(17, 26, 40, 0.22), rgba(17, 26, 40, 0)),
     url("assets/wsop-poker-table.jpg");
 }
 
 .timeline-tag .timeline-photo {
   background-image:
-    linear-gradient(0deg, rgba(17, 26, 40, 0.58), rgba(17, 26, 40, 0.06)),
+    linear-gradient(0deg, rgba(17, 26, 40, 0.22), rgba(17, 26, 40, 0)),
     url("assets/horseshoe-entrance.jpg");
 }
 
 .timeline-canyon .timeline-photo {
   background-image:
-    linear-gradient(0deg, rgba(17, 26, 40, 0.58), rgba(17, 26, 40, 0.06)),
+    linear-gradient(0deg, rgba(17, 26, 40, 0.22), rgba(17, 26, 40, 0)),
     url("assets/grand-canyon-south-rim.jpg");
 }
 
 .timeline-free .timeline-photo {
   background-image:
-    linear-gradient(0deg, rgba(17, 26, 40, 0.58), rgba(17, 26, 40, 0.06)),
+    linear-gradient(0deg, rgba(17, 26, 40, 0.22), rgba(17, 26, 40, 0)),
     url("assets/fremont-street.jpg");
 }
 
 .timeline-sphere .timeline-photo {
   background-image:
-    linear-gradient(0deg, rgba(17, 26, 40, 0.58), rgba(17, 26, 40, 0.06)),
-    url("assets/sphere-las-vegas.jpg");
+    linear-gradient(0deg, rgba(17, 26, 40, 0.22), rgba(17, 26, 40, 0)),
+    url("assets/sphere-las-vegas-bright.jpg");
 }
 
 .final-day-visuals {
@@ -723,14 +723,14 @@ h3 {
   min-height: 126px;
   border-radius: 8px;
   background:
-    linear-gradient(0deg, rgba(17, 26, 40, 0.48), rgba(17, 26, 40, 0.04)),
-    url("assets/baggage-claim.jpg") center / cover;
+    linear-gradient(0deg, rgba(17, 26, 40, 0.2), rgba(17, 26, 40, 0)),
+    url("assets/las-vegas-airport-checkin.jpg") center / cover;
 }
 
 .final-day-visuals span:first-child {
   background-image:
-    linear-gradient(0deg, rgba(17, 26, 40, 0.48), rgba(17, 26, 40, 0.04)),
-    url("assets/sphere-las-vegas.jpg");
+    linear-gradient(0deg, rgba(17, 26, 40, 0.2), rgba(17, 26, 40, 0)),
+    url("assets/sphere-las-vegas-bright.jpg");
 }
 
 .timeline time {
@@ -779,7 +779,7 @@ h3 {
   margin: -14px -14px 14px;
   border-radius: 8px 8px 0 0;
   background:
-    linear-gradient(0deg, rgba(17, 26, 40, 0.42), rgba(17, 26, 40, 0.04)),
+    linear-gradient(0deg, rgba(17, 26, 40, 0.2), rgba(17, 26, 40, 0)),
     var(--section-image) center / cover;
 }
 
@@ -792,7 +792,7 @@ h3 {
 }
 
 .check-booking {
-  --section-image: url("assets/sphere-las-vegas.jpg");
+  --section-image: url("assets/sphere-las-vegas-bright.jpg");
 }
 
 .pack-cabin {
@@ -886,7 +886,7 @@ h3 {
   border: 1px solid var(--line);
   border-radius: 8px;
   background:
-    linear-gradient(90deg, rgba(17, 26, 40, 0.72), rgba(17, 26, 40, 0.12)),
+    linear-gradient(90deg, rgba(17, 26, 40, 0.34), rgba(17, 26, 40, 0.02)),
     url("assets/us-dollars.jpg") center / cover;
   box-shadow: var(--shadow);
 }
