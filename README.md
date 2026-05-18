@@ -52,6 +52,7 @@
 - [docs/grand-canyon.md](docs/grand-canyon.md): 6/25にGrand Canyonツアーを入れる場合の候補・費用・ToDo
 - [docs/flight-baggage.md](docs/flight-baggage.md): 飛行機・荷物FAQ
 - [docs/decisions.md](docs/decisions.md): 友人と決めることリスト
+- [docs/confirmation-sheet.md](docs/confirmation-sheet.md): 確認して回答を書き込むシート
 - [docs/sources.md](docs/sources.md): 参照元
 
 ## GitHubでの運用案
