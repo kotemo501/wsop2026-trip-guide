@@ -656,6 +656,58 @@ h3 {
   line-height: 1.4;
 }
 
+.home-secondary {
+  margin-bottom: 16px;
+  border: 1px solid rgba(16, 47, 66, 0.13);
+  border-radius: 8px;
+  background: #fffdf8;
+  box-shadow: 0 8px 20px rgba(18, 26, 39, 0.05);
+  overflow: hidden;
+}
+
+.home-secondary summary {
+  min-height: 46px;
+  padding: 13px;
+  color: var(--ink);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 1000;
+}
+
+.home-secondary div {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+  padding: 0 13px 13px;
+}
+
+.home-secondary a {
+  min-width: 0;
+  padding: 11px;
+  border: 1px solid rgba(16, 47, 66, 0.12);
+  border-radius: 8px;
+  background: rgba(231, 243, 242, 0.56);
+  color: var(--ink);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.share-collapsed .share-panel {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin: 0;
+  padding: 0 13px 13px;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.share-collapsed .share-panel button {
+  width: 100%;
+  min-width: 0;
+}
+
 .share-panel {
   display: grid;
   grid-template-columns: 1fr repeat(4, auto);
@@ -2531,6 +2583,33 @@ h3 {
     font-size: 14px;
     line-height: 1.25;
     overflow-wrap: anywhere;
+  }
+
+  .home-secondary {
+    margin-bottom: 12px;
+  }
+
+  .home-secondary summary {
+    min-height: 42px;
+    padding: 11px 12px;
+    font-size: 13px;
+  }
+
+  .home-secondary div {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+    padding: 0 12px 12px;
+  }
+
+  .home-secondary a {
+    padding: 10px 8px;
+    font-size: 12px;
+  }
+
+  .share-collapsed .share-panel {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+    padding: 0 12px 12px;
   }
 
   .mobile-hotlist {
