@@ -2139,7 +2139,34 @@ h3 {
   }
 
   body {
-    padding-bottom: 78px;
+    padding-bottom: 104px;
+  }
+
+  main,
+  .layout,
+  .view-stack,
+  .view-panel,
+  .panel-head,
+  .quick-strip,
+  .mobile-command,
+  .mobile-command *,
+  .mobile-hotlist,
+  .next-actions {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .layout,
+  .view-stack,
+  .view-panel,
+  .panel-head,
+  .mobile-command,
+  .mobile-action-grid,
+  .mobile-ready-links,
+  .mobile-hotlist,
+  .next-actions {
+    min-width: 0;
+    overflow-wrap: anywhere;
   }
 
   .site-header {
@@ -2317,20 +2344,27 @@ h3 {
 
   .mobile-command {
     display: block;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
     margin-bottom: 14px;
-    padding: 14px;
+    padding: 12px;
     border: 1px solid rgba(11, 119, 121, 0.22);
     border-radius: 8px;
     background:
       linear-gradient(135deg, rgba(231, 243, 242, 0.92), rgba(255, 253, 248, 0.94)),
       url("assets/horseshoe-entrance.jpg") center / cover;
     box-shadow: 0 10px 24px rgba(18, 26, 39, 0.08);
+    overflow: hidden;
   }
 
   .trip-status {
     display: block;
-    margin-bottom: 12px;
-    padding: 10px;
+    min-width: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+    padding: 9px;
     border: 1px solid rgba(215, 155, 44, 0.32);
     border-radius: 8px;
     background: rgba(255, 253, 248, 0.9);
@@ -2339,6 +2373,8 @@ h3 {
   .trip-status b,
   .trip-status small {
     display: block;
+    max-width: 100%;
+    overflow-wrap: anywhere;
   }
 
   .trip-status b {
@@ -2355,8 +2391,11 @@ h3 {
 
   .time-zone-card {
     display: block;
-    margin-bottom: 12px;
-    padding: 9px 10px;
+    min-width: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+    padding: 9px;
     border: 1px solid rgba(16, 47, 66, 0.13);
     border-radius: 8px;
     background: rgba(255, 253, 248, 0.92);
@@ -2405,22 +2444,24 @@ h3 {
   }
 
   .mobile-command-head h3 {
-    margin: 9px 0 12px;
-    font-size: 22px;
+    margin: 8px 0 10px;
+    font-size: 20px;
   }
 
   .mobile-action-grid {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 8px;
+    min-width: 0;
+    max-width: 100%;
   }
 
   .mobile-action-grid button,
   .mobile-action-grid a {
     display: block;
     min-width: 0;
-    min-height: 58px;
-    padding: 11px 10px;
+    min-height: 70px;
+    padding: 10px;
     border: 1px solid rgba(16, 47, 66, 0.15);
     border-radius: 8px;
     background: rgba(255, 253, 248, 0.92);
@@ -2428,6 +2469,7 @@ h3 {
     text-decoration: none;
     text-align: left;
     overflow: hidden;
+    box-sizing: border-box;
     box-shadow: 0 8px 18px rgba(18, 26, 39, 0.07);
   }
 
@@ -2437,12 +2479,14 @@ h3 {
   }
 
   .mobile-action-grid b {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 1.25;
+    overflow-wrap: anywhere;
   }
 
   .mobile-action-grid small {
-    margin-top: 5px;
+    margin-top: 4px;
+    font-size: 11px;
     color: var(--muted);
     line-height: 1.32;
     overflow-wrap: anywhere;
@@ -2452,6 +2496,8 @@ h3 {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 8px;
+    min-width: 0;
+    max-width: 100%;
     margin-top: 10px;
   }
 
