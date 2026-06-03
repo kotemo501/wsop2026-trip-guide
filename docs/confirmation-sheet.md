@@ -1,12 +1,12 @@
 # 友人に確認して決めるシート
 
-友人と相談して決めるためのシート。各項目は「今のおすすめ」「選択肢」「友人に聞くこと」が分かるように整理する。
+友人と相談して決めるための公開用シート。各項目は「今のおすすめ」「選択肢」「友人に聞くこと」が分かるように整理する。予約番号、参加者名、チケットQR、確認メール本文、パスポート/ESTA番号、保険証券番号、カード番号は書かない。
 
 ## まず友人に聞くこと
 
 | 優先 | 決めたいこと | 今のおすすめ | 友人に聞くこと |
 | --- | --- | --- | --- |
-| 高 | 6/25 South Rimツアー | Horseshoe集合があり、実質`$200-$320+`程度のバスツアー | 早朝集合・長時間移動OKか。非米国居住者fee込みで`$300`前後まで許容できるか |
+| 高 | 6/25 South Rimツアー | 予約済み。National Park Express `非公開` | 05:05集合と終日移動でOKか。当日持ち物とnon-cash支払いを確認 |
 | 高 | 6/27 Sphere座席 | 中央寄り200/300番台。高ければ中央寄り400番台 | 体験重視で`$250+`まで出すか、価格重視で`$150-$200`台に抑えるか |
 | 中 | 海外旅行保険 | クレカ付帯を確認し、薄ければt@biho/AIGで追加 | クレカ付帯の補償内容を見せてもらえるか。保険料`6,000円-15,000円+`を許容するか |
 | 中 | USD現金 | 1人`$1,800-$2,200`、ネット外貨宅配で準備 | 各自で用意するか、2人分まとめて注文して送料/手間を減らすか |
@@ -17,71 +17,48 @@
 | --- | --- | --- |
 | 6/23 Daily | 決定 | 13:00 `$250 Daily Deepstack NLH` |
 | 6/24 Tag Team | 決定 | 参加。登録方法だけ確認 |
-| 6/25 South Rim | 方向性決定 | ツアー会社と総額を決める |
-| 6/27 Sphere | 方向性決定 | The Wizard of Oz、14:00。座席と総額を決める |
+| 6/25 South Rim | 予約済み | National Park Express。05:05 Horseshoe pickup。予約番号は公開版に載せない |
+| 6/27 Sphere | 方向性決定 | The Wizard of Oz、14:00。友人担当でチケットとスマホ表示を確認 |
 | 水 | 決定 | 近くのCVS/Walgreensで現地調達 |
 | 聖地巡礼ご飯 | 決定 | ラーメン1回 + 中華1回で予算計上 |
-| キャッシュ損失上限 | 各自 | しおりでは決めない |
 | お土産予算 | 各自 | 候補だけ整理 |
 
 ## 1. South Rimツアー
 
-6/25(木)固定。West RimではなくSouth Rimであることを最優先で確認する。
-
-方針: コスパと体験価値重視。South RimでちゃんとGrand Canyon体験はするが、べらぼうに高いプランは避ける。2026年の非米国居住者追加費は必ず確認する。
+6/25(木)予約済み。West RimではなくGrand Canyon National Park側のSouth Rimへ行く。
 
 | 項目 | 回答 |
 | --- | --- |
-| 予約先 | 未定。現時点の第一候補はHorseshoe集合実績が明記され、価格が抑えめなGC Tours系/同系販売ページ |
-| 予約URL | 候補比較は下の表 |
+| 予約先 | National Park Express |
+| 予約番号 | 非公開。GitLabには載せない |
+| 予約票 | 非公開。各自のメール/Wallet/ローカル保存で確認 |
+| ツアー名 | Grand Canyon National Park Tour from Las Vegas with Lunch |
+| 商品コード | `SOUTH LUNCH` |
 | 日付 | 2026-06-25(木) |
 | 行き先 | South Rim |
-| 1人総額 | 実質`$200-$320+`目安。ツアー代`$100-$220+` + 2026年非米国居住者追加費`$100/人`が別途の可能性 |
-| 税・手数料込みか | 予約先により違う。GrandCanyon.comは税/燃油/昼食/送迎込み記載、Grand Canyon Tour Companyは税/ツアー料/入園料/予約料/許可料込み記載 |
-| Horseshoe送迎の有無 | GC Tours系のピックアップ表ではHorseshoe Hotelあり。その他は「主要ホテル」表記が多いので予約画面で確認 |
-| 集合場所 | GC Tours系: Horseshoe Hotel North Door Tour Lobby facing Flamingo Road の記載あり |
-| 集合時刻 | Horseshoe集合例は6:40前後。ツアーにより5:00-7:00台 |
-| 帰着予定時刻 | South Rim通常バスは21:30-23:00目安。夜予定は入れない |
-| 昼食込みか | 多くの候補で込み。GrandCanyon.comはmeal voucher、Scenicはmeal included、Canyon Toursはlunch included |
-| 水込みか | Grand Canyon Tour Companyはfree bottled water記載あり。他は持参前提 |
-| 入園料込みか | 要注意。標準入園料込みでも、NPSの2026年非米国居住者追加費`$100/人`は別徴収の可能性が高い |
+| ツアー開始 | 05:15 |
+| pickup | 05:05 |
+| 集合場所 | Horseshoe Las Vegas, Rideshare Lot at Horseshoe |
+| 集合場所メモ | Flamingo Road側のNorth Entrance外。Real Bodies Exhibit近く |
+| 1人ツアー代 | `$124` |
+| 非米国居住者fee | Grand Canyon National Park入場時に`$100/人`をnon-cashで別途支払い |
+| 1人総額目安 | `$224 + チップ/軽食/水` |
+| 昼食 | box lunch込み |
+| 水 | 水1本込み。追加で1-2本持参 |
 | チップ目安 | ガイド/ドライバーに`$10-$20/人`程度を見ておく |
 | 荷物制限 | 大きいスーツケースは不可前提。小さいリュック/身の回り品で行く |
-| キャンセル条件 | Scenic/GrandCanyon.comは72時間前無料キャンセル記載あり。予約先ごとに最終確認 |
-| 予約番号 |  |
-| 緊急連絡先 |  |
-| メモ |  |
-
-確認したい候補:
-
-- Scenic South Rim Bus Tour: https://www.scenic.com/tours/south-rim-bus-tour
-- Canyon Tours South Rim: https://www.canyontours.com/grand-canyon-south-rim-bus-tour/
-- Grand Canyon Tour Company: https://grandcanyontourcompany.com/product/south-rim-bus-tour/
-
-候補比較:
-
-| 候補 | 価格感 | ホテル周辺出発 | 含まれるもの | 注意 |
-| --- | ---: | --- | --- | --- |
-| GC Tours系 / VegasTours系 | `$100-$150+` | Horseshoe集合の記載例あり | バス、South Rim、昼食系 | コスパ有力。運行会社/集合場所/非居住者feeを確認 |
-| GrandCanyon.com | `$116+` | 主要ホテル送迎 | 税、燃油、昼食、ホテル送迎込み記載 | 72時間キャンセル。Horseshoe指定可否を予約画面で確認 |
-| Scenic | 価格は予約画面確認 | 主要ホテル送迎 | 約14時間、食事、バス設備 | ホテル送迎を含めるとさらに長い |
-| Canyon Tours | `$98-$100+` | 主要ホテル送迎 | 昼食、Wi-Fi、South Rim | 2026年の非米国居住者追加費`$100/人`を当日徴収と明記 |
-
-判断:
-
-- おすすめは「Horseshoe集合あり + South Rim + 昼食込み + `$100-$150`台」のプラン。
-- ただし2026年の非米国居住者追加費`$100/人`で実質額は上がる。ここが込みか別かで比較する。
-- 予約前に「Japan passport holder/non-U.S. resident fee is included or collected separately?」を確認する。
-- ヘリ/飛行機アップグレードは体験価値は高いが、今回の方針では高すぎるので基本除外。
+| キャンセル条件 | ツアー開始24時間前まで無料キャンセル可。24時間を切ると返金なし |
+| 緊急連絡先 | National Park Express公式連絡先 |
+| メモ | 前夜に集合場所を実地確認。帰りのdrop-offは前日/当日案内で確認 |
 
 友人に聞くこと:
 
 | 質問 | 選択肢 | 判断材料 |
 | --- | --- | --- |
-| South RimバスツアーでOKか | OK / 高くても別体験を探す | South Rimは長いが「ちゃんとGrand Canyonを見た」感が強い |
-| 1人総額の許容ライン | `$250`まで / `$300`前後 / `$350+`も可 | 非米国居住者fee`$100`で実質額が上がる |
-| 集合場所の優先度 | Horseshoe集合必須 / 徒歩圏ならOK / Uber集合でもOK | 早朝なのでHorseshoe集合が一番安全 |
-| 帰着後の予定 | 何も入れない / 軽食だけ / 体力次第 | 帰着は21:30-23:00目安 |
+| 05:05集合でOKか | OK / 前夜に早寝必須 | 集合が早い。04:15起床目安 |
+| 当日non-cash支払い準備 | OK / 確認必要 | 非米国居住者fee`$100/人`はnon-cash |
+| 帰着後の予定 | 何も入れない / 軽食だけ | 終日ツアーなので夜は休息 |
+| 水・軽食 | 各自準備 / 前日まとめ買い | 朝が早く、現地は乾燥する |
 
 ## 2. Sphereチケット
 
@@ -136,9 +113,9 @@
 | 預け場所 | Horseshoe Bell Desk想定 |
 | 受取場所 | Horseshoe Bell Desk想定 |
 | 受取にかかる時間 | 通常は数分-15分程度を見たい。混雑時は余裕を見る |
-| ツアー側の荷物預かり有無 | ツアーページに預けてってかいてある |
-| 空港集合場所 | 未定、連絡が来ると思う |
-| 空港集合時刻 | 未定、連絡が来ると思う |
+| ツアー側の荷物預かり有無 | ツアー最終案内で確認する |
+| 空港集合場所 | 未定。ツアー最終案内で確認する |
+| 空港集合時刻 | 未定。ツアー最終案内で確認する |
 | ホテル出発目安 | 空港集合時刻の60-90分前。荷物回収を挟むならさらに余裕を見る |
 | Sphere後にホテルへ戻る必要 | ある。荷物の受け取りしないと |
 | 空港移動はツアー手配か自力か | ツアー手配想定。最終案内で確認 |
@@ -146,7 +123,7 @@
 
 ## 4. Tag Team登録
 
-6/24(水)参加確定。未公開の詳細は現地確認でよいが、登録まわりは先に見る。
+6/24(水)参加確定。詳細は [tag-team-registration.md](tag-team-registration.md) に集約する。登録まわりは前日までに揃える。
 
 | 項目 | 回答 |
 | --- | --- |
@@ -157,18 +134,18 @@
 | 1人負担 | $500想定 |
 | 登録場所 | WSOP LIVEアプリまたは現地登録。初回は現地Verificationが必要 |
 | 2人同時登録が必要か | Team eventなのでチーム情報登録が必要。実務上は2人そろって早めに登録/確認するのが安全 |
-| Late Registration | 公式構造シート未確認。一般ルール上Late Regはフルスタック開始。Event固有の締切は現地/構造シート確認 |
+| Late Registration | 公式スケジュール上はLevel 8まで。現地/WSOP LIVEで最終確認 |
 | 必要ID | パスポート想定 |
 | Caesars Rewards Card必要か | 必要。無料。Paris convention area入口のCaesars Rewards front desk等で作成/再発行 |
 | 支払い方法 | 現地: cash、cashier's check、Paris/Horseshoe gaming chips等。オンラインカードは3%手数料の記載あり |
-| 交代ルール | Event固有のルールは構造シート/現地で確認。未公開なら不明扱い |
-| 集合時刻 | 初回登録/Verificationがあるなら開始1時間以上前。安全には10:30-11:00目安 |
-| メモ | WSOP LIVEアカウント、Caesars Rewards、パスポート、支払い手段を前日までに準備 |
+| 交代ルール | チームは一緒に登録。登録終了までに各メンバーが着席確認し、少なくとも1周のブラインドをプレイする前提 |
+| 集合時刻 | 初回登録/Verificationがあるなら開始1時間以上前。安全には10:00目安 |
+| メモ | 現地確認前提。6/23にWSOP LIVE、Caesars Rewards、verification導線を見て、6/24は10:00目安で動く |
 
 確認先:
 
 - WSOP registration: https://www.wsop.com/registration
-- WSOP 2026 schedule PDF: https://assets.wsopcdn.com/wsop/a74347e9-7a68-40bc-9cd6-3e01db3d3234.pdf
+- WSOP 2026 schedule: https://www.wsop.com/tournaments/2026-57th-annual-world-series-of-poker/
 
 登録メモ:
 
@@ -184,18 +161,17 @@
 
 | 項目 | 自分 | 友人 |
 | --- | --- | --- |
-| ESTA有効期限 | 08/01/2027。今回の2026-06旅行では期限OK |  |
+| ESTA有効期限 | GitLab外で確認 | GitLab外で確認 |
 | ESTAのパスポート番号一致 |  |  |
-| パスポート有効期限 | 2025年発行10年パスのためOK想定 |  |
+| パスポート有効期限 | GitLab外で確認 | GitLab外で確認 |
 | ツアー登録名とパスポート名の一致 |  |  |
 | パスポート写真ページ控え |  |  |
 | メモ |  |  |
 
 確認メモ:
 
-- PDFを画像化して確認済み。Expiration Dateは`08/01/2027`。
-- ESTAの有効期限は旅行最終日2026-06-29以降なのでOK。
-- ただしパスポート番号一致は本人がPDF/ESTA画面とパスポートを見て確認する。
+- ESTAの有効期限は旅行最終日2026-06-29以降であることをGitLab外で確認する。
+- パスポート番号一致は本人がPDF/ESTA画面とパスポートを見て確認する。
 - パスポートを更新している場合、古いパスポート番号のESTAは使えないため再申請。
 
 ## 6. 海外旅行保険

@@ -2,6 +2,8 @@
 
 確認日: 2026-05-18
 
+更新メモ: Grand Canyonは2026-06-25(木)のNational Park Express / `Grand Canyon National Park Tour from Las Vegas with Lunch`を予約済み。現在の公開しおりでは、予約済み情報を [confirmed-bookings.md](confirmed-bookings.md) と [grand-canyon.md](grand-canyon.md) で優先する。このページのSouth Rim候補比較は予約前調査の参照として残す。
+
 ## ツアー
 
 - 世界のヨコサワ WSOP 2026 ツアーページ: https://yokosawa.world/wsop2026
@@ -19,6 +21,8 @@
 ## WSOP
 
 - WSOP公式 2026 World Series of Poker schedule: https://www.wsop.com/tournaments/2026-57th-annual-world-series-of-poker/
+- WSOP公式 Registration: https://www.wsop.com/registration/
+- WSOP LIVE: https://www.wsop.com/wsop-live
 - WSOP Daily Deepstack structure PDF: https://wsop.gg-global-cdn.com/wsop/2ae8b531-6bbc-453f-a211-5bae2385aec4.pdf
 - PokerAtlas WSOP 2026 schedule: https://www.pokeratlas.com/poker-tournament-series/2026-wsop-world-series-of-poker-world-series-of-poker-las-vegas-2026
 
@@ -39,6 +43,11 @@
 - Event #63 Mystery Millions: Day 2は2026-06-28(日) 11:00再開、Day 3は2026-06-29(月)。今回の帰国便とは両立しません。
 - Event #65 `$1,500 Freezeout`: 2026-06-23(火)開始の3日イベント。Day 3は2026-06-25(木)。
 - Event #66 `$1,000 Tag Team`: 2026-06-24(水)開始の3日イベント。Day 3は2026-06-26(金)。
+- WSOP 2026公式スケジュール上、Event #66は2026-06-24(水) 12:00、`$1,000`、20,000 starting chips、60分レベル、Late RegistrationはLevel 8、Freezeoutです。
+- 2026年のWSOP登録はVersailles Ballroom近くのregistration areaを使い、Caesars Rewards Card、WSOP LIVE、valid/unexpired photo ID、支払いが必要です。
+- Caesars Rewards Cardは全WSOPイベント参加に必須で、Paris convention area入口のCaesars Rewards front desk等で新規/再発行できます。
+- WSOP LIVE accountもWSOPイベント登録に必須です。初回オンライン登録はVersailles BallroomのWSOP Verificationで本人確認が必要です。
+- 非米国参加者のIDは有効なパスポート等が必要です。クレカ/デビットを使う初回オンライン登録では、物理カードとIDの名義一致確認が必要で、カード手数料がかかる場合があります。
 - Daily Deepstack NLH: 滞在中は主に13:00 `$250`、16:00 `$400`、20:00 `$200` の候補があります。
 - Daily Landmark Satellite: `$135`、Mystery Millions Landmark Satellite: `$130-$240` などのサテライト候補があります。
 
@@ -58,11 +67,20 @@
 - Canyon Tours South Rim Bus Tour: https://www.canyontours.com/grand-canyon-south-rim-bus-tour/
 - Grand Canyon Tour Company South Rim Bus Tour: https://grandcanyontourcompany.com/product/south-rim-bus-tour/
 - GC Tours hotel pickup locations: https://gc.tours/hotels
+- National Park Express Grand Canyon National Park Tour with Lunch: https://nationalparkexpress.com/grand-canyon/grand-canyon-national-park-tour-with-lunch/
+- National Park Express / Rezdy booking page: https://npe.rezdy.com/499769/grand-canyon-national-park-tour-from-las-vegas-with-lunch
+- National Park Express Horseshoe Hotel Pickup: https://nationalparkexpress.com/horseshoe-hotel/
 - Gray Line / Las Vegas Mania South Rim Bus Tour: https://www.lasvegas-mania.com/en/product/scenic/southrimbus
+- VegasTours South Rim Luxury Bus Tour: https://vegastours.com/tour/grand-canyon-south-rim-luxury-bus-tour/
+- GetYourGuide Gray Line系 Grand Canyon National Park Day Tour: https://www.getyourguide.com/en-au/las-vegas-l58/las-vegas-grand-canyon-national-park-day-tour-t24510/
+- GetYourGuide Grand Canyon National Park South Rim Tour: https://www.getyourguide.com/en-au/las-vegas-l58/from-las-vegas-grand-canyon-national-park-south-rim-tour-t132879/
+- Viator South Rim Bus Tour: https://www.viator.com/tours/Las-Vegas/Grand-Canyon-South-Rim-Bus-Tour/d684-3951DSR
+- Viator South Rim Small Group Bus Tour: https://www.viator.com/tours/Las-Vegas/Grand-Canyon-South-Rim-Small-Group-Tour/d684-18262P7
 - Sphere official: https://www.thesphere.com/
 - Ticketmaster Sphere venue: https://www.ticketmaster.com/sphere-billets-las-vegas/venue/189524
 - The Wizard of Oz at Sphere 2026-06-27 14:00: https://www.ticketmaster.com/the-wizard-of-oz-at-sphere-las-vegas-nevada-06-27-2026/event/17006365F03EA980
 - The Wizard of Oz at Sphere official: https://www.thesphere.com/shows/wizard-of-oz-experience
+- Sphere FAQ: https://www.thesphere.com/faqs
 - NPS nonresident fees: https://home.nps.gov/aboutus/nonresident-fees.htm
 - NPS entrance fees by park: https://www.nps.gov/aboutus/entrance-fee-prices.htm
 
@@ -73,12 +91,20 @@
 - Fremont Street Experienceはダウンタウン側の観光エリアで、ストリップ外のため移動手段の検討が必要です。
 - Bellagio Fountainsはホースシュー周辺から入れやすい無料観光候補です。
 - Grand Canyon Westはラスベガスから車で約2時間、ヘリで約30分のWest Rim候補です。West RimはGrand Canyon National ParkではなくHualapai Tribeの運営エリアです。
-- South Rimバスは`$107`前後から、約14.5時間のツアー例があります。6/25はSouth Rimで固定します。
+- South Rimバスは予約前比較では`$107`前後から、約14.5時間のツアー例があります。現在はNPEの予約済みツアーを優先します。
 - West Rimやヘリは比較時に確認した参考情報で、今回の6/25候補からは外します。
-- GrandCanyon.comのSouth Rim Bus Tourには、14-15時間、ホテル送迎、昼食、72時間キャンセル条件の記載があります。
-- Gray Line系のSouth Rim Bus Tourには、主要ホテル送迎、予約確認、キャンセル条件、荷物制限の記載があります。
-- 2026年はGrand Canyon National Parkで非米国居住者16歳以上に`$100`の追加feeがかかるため、ツアー代に含まれるか別徴収か要確認です。
+- GrandCanyon.com、Gray Line系、GC Tours、VegasToursなどのSouth Rim情報は予約前比較用です。現在の当日導線には使わず、NPEの予約確認と最終案内を優先します。
+- GC ToursのSouth Rim Bus Tourは`$70/人`、Horseshoe Las Vegas 6:15am North Entrance Tour Lobby、24時間前キャンセル可、朝食snack/水/lunch込みの記載があります。非米国居住者fee`$100/人`は別予算で見て、徴収方法を要確認です。
+- GC ToursのReservationsページには、6か月前までの限定予約、予約時`$10/人`、残額は24時間前まで、return timeは保証しない旨の記載があります。
+- GC Toursは2026-06-25(木)がFULL表示のため、第一候補から外します。
+- National Park Express / RezdyのGrand Canyon National Park Tour from Las Vegas with Lunchは、2026-06-25(木)、Adult 2名、5:15 AMで`21 Available`、価格`$248`を確認しました。非米国居住者fee`$100/人`はGrand Canyon National Park入場時にnon-cashで別途必要です。
+- National Park ExpressのHorseshoe pickupページには、朝はHorseshoe Hotelでpickupするが、工事のため帰りはHorseshoe drop-offではなくPark MGMになる旨、pickup場所はFlamingo Road側North Entrance/Rideshare Lot周辺との記載があります。
+- GetYourGuideのGray Line系Grand Canyon National Park Day TourにはHorseshoe Las Vegas pickup候補、`Tour w/ Lunch`が`$139/人`からの記載があります。
+- ViatorのSmall Group South Rim Bus TourにはBally's North Entrance Facing Flamingo Rd. pickup、非米国居住者fee`$100/人`別途の記載があります。
+- VegasToursのSouth Rim Luxury Bus TourはBallys / Horseshoe 6:15 AM pickup記載がありますが、ページ上で現在unavailable/全曜日Closedのため予約候補から外します。
+- 2026年はGrand Canyon National Parkで非米国居住者16歳以上に`$100`の追加feeがかかり、NPS FAQ上はcommercial tour group参加者も対象です。NPE/RezdyではGrand Canyon National Park入場時にnon-cashで別途必要と確認したため、ツアー代とは別予算で見ます。
 - Sphere公式サイトは各公演のBuy Tickets導線をTicketmasterへ出しており、モバイルチケット、バッグポリシー、アクセス情報を確認できます。
+- Sphere公式FAQでは、モバイルチケット、開演45分前のdoors open、late seating不可、cashless、no bag寄りのバッグポリシー、バッグ/コート/私物のcheck-inなしを確認しました。
 - The Wizard of Oz at Sphereは約75分、ドアオープンは開演45分前、late seating不可です。
 
 ## 周辺ポーカーシリーズ
@@ -126,6 +152,8 @@
 確認した主な内容:
 
 - 日本は100万円相当超、米国は`$10,000`超の現金等で申告が必要。
+- 日本税関FAQでは、出入国時に現金、外国通貨、小切手、トラベラーズチェック等の支払手段が合計100万円相当を超える場合に申告が必要です。
+- CBP/FinCENの案内では、米国へ入る時または米国から出る時に通貨/monetary instrumentsの合計が`$10,000`を超える場合、FinCEN Form 105で報告します。
 - ZIPAIR一般ルールでは機内持込2個合計7kg、受託手荷物は1個30kg/3辺203cmを上限目安にする。
 - モバイルバッテリーや予備リチウム電池は機内持込扱いで準備する。
 - アメリカは医療費が高いため、治療・救援費用、キャッシュレス医療、航空機遅延、携行品を確認する。

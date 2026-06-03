@@ -1,2 +1,24 @@
 .DS_Store
 
+# Private reservation documents and personal travel records.
+*.pdf
+*予約票*
+private/
+local-private/
+reservations/
+tickets/
+wallet/
+insurance/
+cards/
+passports/
+esta/
+screenshots-private/
+private-*/
+*-private/
+*.eml
+*.mbox
+*.msg
+*.vcf
+
+# Generated GitLab Pages preview output.
+public/docs/

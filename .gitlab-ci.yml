@@ -1,7 +1,26 @@
+image: node:22-alpine
+
+stages:
+  - test
+  - deploy
+
+validate_public:
+  stage: test
+  before_script:
+    - apk add --no-cache bash python3 ripgrep
+  script:
+    - echo "Validating WSOP 2026 trip guide"
+    - ./scripts/build_public.sh
+    - ./scripts/check_public.sh
+
 pages:
   stage: deploy
+  before_script:
+    - apk add --no-cache bash python3 ripgrep
   script:
     - echo "Publishing WSOP 2026 trip guide"
+    - ./scripts/build_public.sh
+    - ./scripts/check_public.sh
   artifacts:
     paths:
       - public

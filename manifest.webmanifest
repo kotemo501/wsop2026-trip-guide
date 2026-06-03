@@ -1,0 +1,91 @@
+{
+  "name": "WSOP 2026 Trip Guide",
+  "short_name": "WSOP Trip",
+  "description": "WSOP 2026 ラスベガス旅行の公開用しおり",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f3ea",
+  "theme_color": "#172033",
+  "shortcuts": [
+    {
+      "name": "今日の司令室",
+      "short_name": "今日",
+      "description": "現地で朝起きて最初に見るカード",
+      "url": "docs/reader.html?doc=today-command.md",
+      "icons": [
+        {
+          "src": "assets/app-icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "予約・集合",
+      "short_name": "予約",
+      "description": "予約済みの集合時刻、場所、支払いを確認",
+      "url": "docs/reader.html?doc=confirmed-bookings.md",
+      "icons": [
+        {
+          "src": "assets/app-icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "日別コンシェルジュ",
+      "short_name": "添乗",
+      "description": "朝、移動前、寝る前に見る日別の添乗メモ",
+      "url": "docs/reader.html?doc=daily-concierge.md",
+      "icons": [
+        {
+          "src": "assets/app-icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "60秒SOS",
+      "short_name": "SOS",
+      "description": "現地で焦った時の最初の判断",
+      "url": "docs/reader.html?doc=sos-quick-card.md",
+      "icons": [
+        {
+          "src": "assets/app-icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "ポケット旅程表",
+      "short_name": "旅程",
+      "description": "日別の時刻、集合、持ち物を確認",
+      "url": "docs/reader.html?doc=pocket-itinerary.md",
+      "icons": [
+        {
+          "src": "assets/app-icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "icons": [
+    {
+      "src": "assets/app-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/app-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

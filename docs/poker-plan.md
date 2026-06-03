@@ -1,10 +1,21 @@
 # ポーカー計画
 
+## WSOP会場
+
+| 項目 | 内容 |
+| --- | --- |
+| 2026 WSOP会場 | Horseshoe Las Vegas and Paris Las Vegas |
+| 住所検索 | `Horseshoe Las Vegas` / `Paris Las Vegas` |
+| 初日に見る場所 | WSOP registration、Verification、Caesars Rewards、Daily Deepstack受付、Event #66掲示 |
+| 当日聞く言葉 | `WSOP registration`, `player verification`, `Daily Deepstack`, `Event 66 Tag Team` |
+
+公式発表では、2026 WSOPはHorseshoe Las Vegas and Paris Las Vegasで開催。会場内の部屋割りは当日案内とWSOP表示を優先する。
+
 ## 参加候補の優先順位
 
 | 優先度 | 候補 | 日時 | Buy-in | 理由 | 注意 |
 | --- | --- | --- | --- | --- | --- |
-| S | WSOP Event #66 NLH Tag Team | 6/24(水) 12:00 | `$1,000/team` | 参加確定。友人2人参加と相性が良く、帰国便までに完結 | 登録方法・集合時間・交代ルールを確認 |
+| S | WSOP Event #66 NLH Tag Team | 6/24(水) 12:00 | `$1,000/team` | 参加確定。友人2人参加と相性が良く、帰国便までに完結 | [登録メモ](tag-team-registration.md)を見て、現地で導線確認 |
 | A | ツアー限定 WSOP公認フリーロール | 6/26(金) 19:00 | 無料 | 6/26フリー日のトーナメント候補 | 休息、お土産、散歩、キャッシュと並ぶ候補 |
 | S | WSOP Daily Deepstack NLH | 6/23(火) 13:00 | `$250` | 参加確定。初WSOPとして会場に慣れやすい | 飛んだらキャッシュ。上限と終了時刻を先に決める |
 | A | WSOP Daily Deepstack NLH | 6/26昼まで | `$250` / `$400` / `$200` | 6/26フリー日のトーナメント候補 | 6/25はSouth Rim、6/27は除外 |
@@ -18,7 +29,7 @@
 - 帰国便は動かさない。
 - 2026-06-27(土)夜の空港移動に影響するトーナメントは選ばない。
 - 2026-06-28(日)以降に勝ち残る可能性があるイベントは、最初から候補にしない。
-- 6/27(土)はSphere公演と他カジノ見学、空港移動を優先し、ポーカーは入れない。
+- 6/27(土)はSphere公演、荷物回収、空港移動を優先し、ポーカーは入れない。
 
 ## 候補の説明
 
@@ -88,7 +99,8 @@
 
 ## 当日確認メモ
 
-- WSOP+などの登録方法
+- [Tag Team登録メモ](tag-team-registration.md)
+- WSOP LIVEなどの登録方法
 - パスポート原本の携帯要否
 - 支払い方法、現金、チップ、ATM手数料
 - 会場の荷物ルール

@@ -1,22 +1,34 @@
 # 決定事項リスト
 
+公開版で見る決定リスト。予約番号、参加者名、確認メール本文、パスポート/ESTA番号、チケットQR、保険証券番号、カード番号は書かない。未確定でも担当、確認タイミング、代替手段、更新先が決まっているものは`HOLD`として管理する。
+
+## 現在のHOLD項目
+
+| 項目 | 扱い | 更新先 |
+| --- | --- | --- |
+| Sphere | 友人担当待ち。6/27(土)14:00方針、バッグ制限、荷物回収優先だけ公開版で見る | [final-day-sphere.md](final-day-sphere.md) |
+| 6/27荷物・空港集合 | ツアー最終案内待ち。Sphereへ大きい荷物を持たない前提で逆算 | [final-day-luggage-airport-card.md](final-day-luggage-airport-card.md) |
+| Tag Team登録 | 現地確認前提。6/23に導線確認、6/24は10:00目安で動く | [tag-team-registration.md](tag-team-registration.md) |
+| 保険/カード | dカード GOLD U付帯を確認中。薄ければ追加保険を検討 | [safety-wallet.md](safety-wallet.md) |
+| USD現金 | 固定額にしない。`$1,800-$2,200`基本レンジで可変運用 | [money-logistics.md](money-logistics.md) |
+
 ## 予約・渡航
 
-- [ ] ツアー予約完了
+- [x] Grand Canyon South Rimツアー予約完了。National Park Express `非公開`
 - [ ] パスポート有効期限確認
 - [ ] ESTA有効期限確認
 - [ ] 海外旅行保険の範囲確認
-- [ ] 現金をいくら持っていくか決める
+- [ ] USD現金は固定額ではなく、基本レンジと用途別財布で運用する
 
 ## ポーカー
 
-- [ ] 2人それぞれの総ポーカー予算を決める
-- [ ] WSOP本戦の最大参加本数を決める
+- [ ] 2人それぞれのポーカー上限を決める。公開版には実損失上限や保管場所を書かない
+- [x] WSOP本戦はTag Teamを軸にする
 - [x] ウェルカムパーティーに参加する
 - [x] 6/23(火) 13:00 Daily Deepstack NLHに出る
 - [ ] 6/23(火) Daily敗退後にキャッシュへ行く場合の現金目安を確認する
 - [x] 6/24(水) Tag Teamに出る
-- [ ] 6/24(水) Tag Teamの登録方法・集合時間・交代ルールを確認する
+- [ ] 6/24(水) Tag Teamの登録方法・集合時間・交代ルールを現地で確認する
 - [ ] 6/26(金) フリー日の候補を残す: 休息 / お土産 / カジノ散歩 / Daily / フリーロール / キャッシュ
 - [ ] 6/26(金) トーナメント候補を確認する: 13:00 Daily / 19:00フリーロール
 - [x] Mystery Millionsは帰国便と衝突するため候補から外す
@@ -29,34 +41,32 @@
 - [ ] できれば行きたい観光を2つ選ぶ
 - [x] 6/25(木)にGrand Canyonツアーを入れる
 - [x] Grand CanyonはSouth Rimツアーにする
-- [ ] Grand Canyonツアーの予算上限を決める
+- [x] Grand Canyonツアー予約済み。ツアー代`$124/人`、非米国居住者fee`$100/人`、チップ別
 - [x] 6/27(土) 14:00 Sphere公演を見る
-- [ ] 6/27(土) Sphere公演の公演名・チケット・入場時刻を確認する
-- [ ] 6/27(土) 見に行く他カジノを決める
-- [ ] 6/27(土) Sphere前後の荷物管理と移動時間を確認する
+- [ ] 6/27(土) Sphereチケット、スマホ表示、入場時刻を友人担当で確認する
+- [ ] 6/27(土) 近場散歩は午前だけの候補にする
+- [ ] 6/27(土) Sphere前後の荷物管理と空港集合をツアー最終案内で確認する
 - [ ] 聖地巡礼系のお店を何回入れるか決める
 - [ ] カップ麺/軽食用にお湯・電子レンジ・冷蔵庫が使えるか確認する
 - [ ] 節約食の買い出し予算を決める
 - [ ] 予約が必要なショー/レストランを入れるか決める
 - [ ] 最終日の荷物管理を決める
 
-## GitHub Issue案
+## GitLab Issue案
 
 | Issue名 | ラベル |
 | --- | --- |
 | 2人のポーカー予算を決める | `decision`, `budget`, `poker` |
 | 6/23 Daily敗退後キャッシュの現金目安を確認する | `budget`, `poker` |
 | 6/24 Tag Team登録・集合ルール確認 | `todo`, `poker` |
-| 6/25 South Rimツアーを予約する | `todo`, `booking`, `tourism` |
-| Grand Canyon South Rim予約前チェック | `todo`, `booking`, `tourism` |
+| Grand Canyon South Rim当日持ち物チェック | `todo`, `booking`, `tourism` |
 | 6/26フリー日の候補を整理する | `tourism`, `poker` |
 | 6/27 Sphere公演のチケット・移動確認 | `todo`, `booking`, `tourism` |
-| 6/27に見に行く他カジノを決める | `decision`, `tourism` |
 | 節約食の買い出しと設備確認 | `todo`, `budget`, `food` |
-| 現地予算の上限を決める | `decision`, `budget` |
+| 現地予算の上限レンジを決める | `decision`, `budget` |
 | USD現金とカード構成を決める | `decision`, `budget`, `todo` |
 | ESTA/渡航準備チェック | `todo`, `booking` |
-| Sphere以外のショー/食事予約候補を決める | `decision`, `tourism` |
+| Sphere以外の食事予約候補を決める | `decision`, `tourism` |
 
 ## 予算テンプレート
 
