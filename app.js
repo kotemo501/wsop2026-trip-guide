@@ -19,8 +19,9 @@ const daysBetween = (fromDate, toDate) => {
 const lasVegasToday = dateInLasVegas();
 const today = tripDays[lasVegasToday];
 const tripDates = Object.keys(tripDays).sort();
-const nextDateKey = tripDates.find((date) => daysBetween(lasVegasToday, date) >= 0) || tripDates.at(-1);
-const nextAction = today || tripDays[nextDateKey];
+const afterTripAction = { nextDate: "After 6/27", nextTitle: "帰国後メモ", tag: "WRAP UP", visual: "assets/generated-poker-felt-texture.png", visualLabel: "REVIEW", time: "写真・精算・反省", seat: "帰国後", fold: "写真、精算、WSOPと旅程の反省をまとめる。", hand: "Trip Wrap" };
+const nextDateKey = tripDates.find((date) => daysBetween(lasVegasToday, date) >= 0);
+const nextAction = today || (nextDateKey ? tripDays[nextDateKey] : afterTripAction);
 document.querySelectorAll("[data-trip-date]").forEach((item) => item.classList.toggle("is-trip-today", item.dataset.tripDate === lasVegasToday));
 const status = document.querySelector("[data-trip-status]");
 if (status) {

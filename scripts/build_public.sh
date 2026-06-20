@@ -25,3 +25,4 @@ cp index.html styles.css app.js manifest.webmanifest offline.html service-worker
 cp -R assets public/
 mkdir -p public/docs
 cp -R docs/. public/docs/
+find public -name .DS_Store -type f -delete

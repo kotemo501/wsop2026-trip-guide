@@ -39,6 +39,11 @@ require_dir public
 require_dir public/docs
 ok "required files exist"
 
+if find public -name .DS_Store -type f | rg .; then
+  fail "public directory contains .DS_Store"
+fi
+ok "no .DS_Store in public"
+
 if git ls-files -co --exclude-standard | rg -i '\.pdf$'; then
   fail "PDF files must not be committed"
 fi
@@ -87,6 +92,8 @@ ok "javascript and manifest syntax"
 
 rg -q 'const CACHE_NAME = "wsop-2026-trip-guide-v[0-9]+";' service-worker.js || fail "service worker cache name must include numeric version"
 ok "service worker cache name is versioned"
+rg -q 'caches\.match\(event\.request, \{ ignoreSearch: true \}\)' service-worker.js || fail "service worker must match cached reader assets without query strings"
+ok "service worker matches query variants"
 rg -q 'navigator\.serviceWorker\.register\("service-worker\.js"\)' app.js || fail "service worker registration missing from app.js"
 ok "service worker registration exists"
 

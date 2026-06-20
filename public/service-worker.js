@@ -1,4 +1,4 @@
-const CACHE_NAME = "wsop-2026-trip-guide-v38";
+const CACHE_NAME = "wsop-2026-trip-guide-v39";
 
 const CORE_ASSETS = [
   "./",
@@ -123,7 +123,7 @@ self.addEventListener("fetch", (event) => {
         return response;
       })
       .catch(async () => {
-        const cached = await caches.match(event.request);
+        const cached = await caches.match(event.request, { ignoreSearch: true });
         if (cached) return cached;
         if (isNavigationRequest(event.request)) {
           return caches.match("offline.html");
