@@ -1,4 +1,4 @@
-const CACHE_NAME = "wsop-2026-trip-guide-v36";
+const CACHE_NAME = "wsop-2026-trip-guide-v37";
 
 const CORE_ASSETS = [
   "./",
@@ -30,6 +30,11 @@ const EXTRA_ASSETS = [
   "assets/us-dollars.jpg",
   "assets/wsop-poker-table.jpg",
   "assets/wsop-vegas-hero.png",
+  "assets/generated-poker-felt-texture.png",
+  "assets/generated-sphere-poker-card.png",
+  "assets/generated-grand-canyon-poker-card.png",
+  "assets/generated-poker-journey-hero-desktop.png",
+  "assets/generated-poker-journey-hero-mobile.png",
   "docs/budget.md",
   "docs/concierge-handoff.md",
   "docs/condition-care-card.md",

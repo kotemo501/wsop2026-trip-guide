@@ -87,6 +87,8 @@ ok "javascript and manifest syntax"
 
 rg -q 'const CACHE_NAME = "wsop-2026-trip-guide-v[0-9]+";' service-worker.js || fail "service worker cache name must include numeric version"
 ok "service worker cache name is versioned"
+rg -q 'navigator\.serviceWorker\.register\("service-worker\.js"\)' app.js || fail "service worker registration missing from app.js"
+ok "service worker registration exists"
 
 python3 - <<'PY'
 import json
@@ -232,13 +234,7 @@ import re
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
-mobile_expected = [
-    "today-command.md",
-    "daily-concierge.md",
-    "confirmed-bookings.md",
-    "sos-quick-card.md",
-    "pocket-itinerary.md",
-]
+mobile_expected = ["#today", "#itinerary", "#bookings", "#sos"]
 reader_expected = [
     "today-command.md",
     "confirmed-bookings.md",
@@ -246,40 +242,45 @@ reader_expected = [
     "pocket-itinerary.md",
 ]
 
-def dock_docs(source, pattern, label, expected):
+
+def dock_refs(source, pattern, label):
     match = re.search(pattern, source, re.S)
     if not match:
         raise SystemExit(f"{label} missing")
-    docs = []
-    for href in re.findall(r'href=["\']([^"\']+)["\']', match.group(1)):
-        parsed = urlparse(href)
-        doc = parse_qs(parsed.query).get("doc", [""])[0]
-        if doc:
-            docs.append(doc)
-    if docs != expected:
-        raise SystemExit(f"{label} docs changed: " + ", ".join(docs))
-    return docs
+    return re.findall(r'href=["\']([^"\']+)["\']', match.group(1))
 
-mobile_docs = dock_docs(
-    Path("index.html").read_text(encoding="utf-8"),
+index_source = Path("index.html").read_text(encoding="utf-8")
+mobile_refs = dock_refs(
+    index_source,
     r'<nav class="mobile-dock"[^>]*>(.*?)</nav>',
     "mobile dock",
-    mobile_expected,
 )
-reader_docs = dock_docs(
+if mobile_refs != mobile_expected:
+    raise SystemExit("mobile dock refs changed: " + ", ".join(mobile_refs))
+for ref in mobile_refs:
+    if f'id="{ref[1:]}"' not in index_source:
+        raise SystemExit(f"mobile dock target missing: {ref}")
+
+reader_refs = dock_refs(
     Path("docs/reader.html").read_text(encoding="utf-8"),
     r'<nav class="reader-dock"[^>]*>(.*?)</nav>',
     "reader dock",
-    reader_expected,
 )
-
-for doc in sorted(set(mobile_docs + reader_docs)):
+reader_docs = []
+for href in reader_refs:
+    parsed = urlparse(href)
+    doc = parse_qs(parsed.query).get("doc", [""])[0]
+    if doc:
+        reader_docs.append(doc)
+if reader_docs != reader_expected:
+    raise SystemExit("reader dock docs changed: " + ", ".join(reader_docs))
+for doc in reader_docs:
     if not Path("docs", doc).is_file():
-        raise SystemExit(f"dock doc missing: docs/{doc}")
+        raise SystemExit(f"reader dock doc missing: docs/{doc}")
     if not Path("public/docs", doc).is_file():
-        raise SystemExit(f"dock public doc missing: public/docs/{doc}")
+        raise SystemExit(f"reader dock public doc missing: public/docs/{doc}")
 PY
-ok "mobile and reader dock docs exist"
+ok "mobile and reader dock targets exist"
 
 rg -q 'data-print-doc' docs/reader.html || fail "reader print button missing"
 rg -q 'window\.print\(\)' docs/reader.js || fail "reader print handler missing"
