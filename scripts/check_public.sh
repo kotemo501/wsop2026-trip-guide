@@ -297,7 +297,7 @@ ok "reader print action exists"
 
 rg -q 'grid-template-columns: repeat\(4, minmax\(0, 1fr\)\);' docs/reader.css || fail "reader dock desktop columns must not overflow"
 rg -q 'grid-template-columns: repeat\(2, minmax\(0, 1fr\)\);' docs/reader.css || fail "reader dock mobile columns must fit two rows"
-rg -q 'padding-bottom: 142px;' docs/reader.css || fail "reader mobile dock needs bottom padding"
+rg -q 'padding-bottom: 152px;' docs/reader.css || fail "reader mobile dock needs bottom padding"
 ok "reader mobile dock layout exists"
 
 python3 - <<'PY'
