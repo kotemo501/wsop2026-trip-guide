@@ -701,6 +701,9 @@ dd { margin: 0; font-weight: 850; }
     color: var(--ink);
     font-size: 12px;
   }
+  .today-card::after {
+    display: none;
+  }
   .mobile-dock {
     padding: 4px 10px calc(4px + env(safe-area-inset-bottom));
     background: rgba(8,13,18,.96);
@@ -764,6 +767,30 @@ dd { margin: 0; font-weight: 850; }
     padding-left: 18px;
     font-size: 13px;
     line-height: 1.55;
+  }
+  .sos-grid {
+    gap: 8px;
+  }
+  .sos-grid article {
+    display: grid;
+    gap: 3px;
+    min-height: 68px;
+    padding: 11px 13px;
+    border-radius: 7px;
+  }
+  .sos-grid article::before {
+    background:
+      linear-gradient(120deg, rgba(255,255,255,.28), transparent 22%),
+      radial-gradient(circle at 94% 8%, rgba(184,58,58,.08), transparent 32%);
+  }
+  .sos-grid span {
+    font-size: 15px;
+    line-height: 1.25;
+  }
+  .sos-grid p {
+    margin-top: 0;
+    font-size: 13px;
+    line-height: 1.45;
   }
   .booking-card img {
     height: 128px;

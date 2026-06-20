@@ -1,4 +1,4 @@
-const CACHE_NAME = "wsop-2026-trip-guide-v41";
+const CACHE_NAME = "wsop-2026-trip-guide-v42";
 
 const CORE_ASSETS = [
   "./",
