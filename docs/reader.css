@@ -650,9 +650,9 @@ tr:nth-child(even) td {
   }
 
   .reader-dock a:nth-child(1)::before { content: "♠"; }
-  .reader-dock a:nth-child(2)::before { content: "♣"; }
-  .reader-dock a:nth-child(3)::before { content: "♥"; color: var(--red); }
-  .reader-dock a:nth-child(4)::before { content: "♦"; }
+.reader-dock a:nth-child(2)::before { content: "♦"; }
+.reader-dock a:nth-child(3)::before { content: "♣"; }
+.reader-dock a:nth-child(4)::before { content: "♥"; color: var(--red); }
 
   .reader-related {
     padding: 14px 12px 16px;

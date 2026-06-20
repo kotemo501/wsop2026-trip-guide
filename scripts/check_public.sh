@@ -241,12 +241,12 @@ import re
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
-mobile_expected = ["#today", "#itinerary", "#bookings", "#sos"]
+mobile_expected = ["#today", "#itinerary", "#flight", "#sos"]
 reader_expected = [
     "today-command.md",
-    "confirmed-bookings.md",
-    "sos-quick-card.md",
     "pocket-itinerary.md",
+    "flight-baggage.md",
+    "sos-quick-card.md",
 ]
 
 

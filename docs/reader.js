@@ -9,7 +9,7 @@ const related = document.querySelector("[data-reader-related]");
 const safeDocPattern = /^[a-z0-9-]+\.md$/i;
 
 const relatedDocs = {
-  "today-command.md": ["pocket-itinerary.md", "daily-concierge.md", "sos-quick-card.md", "condition-care-card.md"],
+  "today-command.md": ["pocket-itinerary.md", "flight-baggage.md", "daily-concierge.md", "sos-quick-card.md"],
   "sos-quick-card.md": ["travel-support-playbook.md", "private-info-handbook.md", "safety-wallet.md", "today-command.md"],
   "grand-canyon.md": ["confirmed-bookings.md", "onsite-navigation-card.md", "daily-briefings.md", "paper-backup-card.md"],
   "confirmed-bookings.md": ["grand-canyon.md", "pocket-itinerary.md", "private-info-handbook.md", "travel-support-playbook.md"],
@@ -17,7 +17,8 @@ const relatedDocs = {
   "final-day-sphere.md": ["sphere-ticket-purchase-card.md", "final-day-luggage-airport-card.md", "pocket-itinerary.md", "sos-quick-card.md"],
   "final-day-luggage-airport-card.md": ["final-day-sphere.md", "onsite-navigation-card.md", "paper-backup-card.md", "departure-readiness.md"],
   "tag-team-registration.md": ["poker-plan.md", "daily-briefings.md", "today-command.md", "decision-control.md"],
-  "pocket-itinerary.md": ["today-command.md", "daily-concierge.md", "confirmed-bookings.md", "sos-quick-card.md"],
+  "pocket-itinerary.md": ["today-command.md", "flight-baggage.md", "confirmed-bookings.md", "sos-quick-card.md"],
+  "flight-baggage.md": ["pocket-itinerary.md", "departure-arrival.md", "final-day-luggage-airport-card.md", "sos-quick-card.md"],
   "daily-concierge.md": ["today-command.md", "pocket-itinerary.md", "condition-care-card.md", "daily-money-card.md"],
   "fun-mission-card.md": ["daily-concierge.md", "free-day-plan.md", "tourism-and-food.md", "condition-care-card.md"],
   "tourism-and-food.md": ["fun-mission-card.md", "free-day-plan.md", "daily-money-card.md", "condition-care-card.md"],
@@ -51,7 +52,7 @@ const docTitles = {
   "final-day-luggage-airport-card.md": "最終日 荷物・空港",
   "final-day-sphere.md": "Sphere + 最終日",
   "final-travel-packet.md": "最終トラベルパケット",
-  "flight-baggage.md": "飛行機・荷物FAQ",
+  "flight-baggage.md": "Flight & Entry",
   "free-day-plan.md": "フリー日プラン",
   "friend-quickstart.md": "友人向け最初の10分",
   "fun-mission-card.md": "旅のミッション",
