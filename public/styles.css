@@ -1627,3 +1627,234 @@ dd { margin: 0; font-weight: 850; }
     box-shadow: 0 -18px 42px rgba(0,0,0,.55);
   }
 }
+
+/* Backup deck readability pass */
+@media screen {
+  .library-section {
+    --section-art: url("assets/generated-poker-felt-texture.png");
+  }
+
+  .library-section::before {
+    background:
+      linear-gradient(180deg, rgba(255,250,240,.86), rgba(239,231,216,.78)),
+      url("assets/generated-page-bg-mobile.png") center 76% / cover no-repeat;
+  }
+
+  .library-grid a {
+    border-color: rgba(201,154,69,.46);
+    background-image:
+      linear-gradient(90deg, rgba(255,253,248,.98), rgba(255,253,248,.94));
+    box-shadow: 0 9px 20px rgba(62,43,18,.12), 0 1px 0 rgba(255,255,255,.56) inset;
+  }
+
+  .library-grid a span {
+    background: rgba(15,59,50,.08);
+    color: var(--felt);
+  }
+
+  .library-grid a:last-child span {
+    background: rgba(184,58,58,.08);
+    color: var(--red);
+  }
+
+  .library-grid b {
+    color: var(--ink);
+  }
+
+  .library-grid small {
+    color: rgba(23,32,42,.62);
+  }
+
+  .library-grid em {
+    border-color: rgba(201,154,69,.34);
+    background: rgba(201,154,69,.08);
+    color: #7b581f;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .library-section {
+    overflow: visible;
+    padding-top: 18px;
+    padding-bottom: 108px;
+  }
+
+  .library-section:target::before {
+    position: absolute;
+    inset: 10px -8px;
+    display: block;
+    height: auto;
+    margin: 0;
+    border: 1px solid rgba(201,154,69,.28);
+    border-radius: 12px;
+    background:
+      linear-gradient(180deg, rgba(255,250,240,.9), rgba(239,231,216,.8)),
+      url("assets/generated-page-bg-mobile.png") center 76% / cover no-repeat;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.42), 0 14px 30px rgba(8,13,18,.12);
+  }
+
+  .library-section .section-head {
+    margin-bottom: 12px;
+    padding-inline: 10px;
+    text-align: left;
+  }
+
+  .library-section .section-head .eyebrow {
+    margin-bottom: 6px;
+    color: #8d682a;
+  }
+
+  .library-section .section-head h2 {
+    margin-bottom: 7px;
+    font-size: 27px;
+  }
+
+  .library-section .section-head p:not(.eyebrow) {
+    display: block;
+    margin: 0;
+    color: rgba(23,32,42,.68);
+    font-size: 12.5px;
+    font-weight: 750;
+    line-height: 1.45;
+  }
+
+  .library-grid {
+    gap: 8px;
+  }
+
+  .library-grid a {
+    grid-template-columns: 32px minmax(0, 1fr) auto 16px;
+    grid-template-rows: auto auto;
+    min-height: 58px;
+    padding: 9px 10px;
+    background-image:
+      linear-gradient(90deg, rgba(255,253,248,.99), rgba(255,253,248,.95));
+  }
+
+  .library-grid a::after {
+    grid-column: 4;
+    grid-row: 1 / span 2;
+    align-self: center;
+    justify-self: center;
+  }
+
+  .library-grid a span {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    align-self: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(201,154,69,.24);
+    border-radius: 50%;
+    background: rgba(15,59,50,.08);
+    color: var(--felt);
+    font-size: 18px;
+  }
+
+  .library-grid a:nth-child(2n) span,
+  .library-grid a:nth-child(4n) span,
+  .library-grid a:nth-child(6n) span,
+  .library-grid a:nth-child(7n) span {
+    background: rgba(15,59,50,.08);
+    color: var(--felt);
+  }
+
+  .library-grid a:last-child span {
+    background: rgba(184,58,58,.08);
+    color: var(--red);
+  }
+
+  .library-grid b {
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 15px;
+    line-height: 1.14;
+  }
+
+  .library-grid small {
+    grid-column: 2 / span 2;
+    grid-row: 2;
+    display: block;
+    margin-top: 3px;
+    font-size: 10.5px;
+    line-height: 1.25;
+  }
+
+  .library-grid em {
+    grid-column: 3;
+    grid-row: 1;
+    align-self: start;
+    max-width: none;
+    padding: 2px 6px;
+    border: 1px solid rgba(201,154,69,.32);
+    border-radius: 4px;
+    background: rgba(201,154,69,.08);
+    font-size: 9px;
+  }
+}
+
+/* Itinerary card art pass */
+@media screen {
+  .timeline article[data-trip-date="2026-06-22"] {
+    --card-art: url("assets/las-vegas-airport-checkin.jpg");
+  }
+
+  .timeline article[data-trip-date="2026-06-23"] {
+    --card-art: url("assets/generated-card-bg-daily.jpg");
+  }
+
+  .timeline article[data-trip-date="2026-06-24"] {
+    --card-art: url("assets/generated-card-bg-tag-team.jpg");
+  }
+
+  .timeline article[data-trip-date="2026-06-25"] {
+    --card-art: url("assets/generated-grand-canyon-poker-card.png");
+  }
+
+  .timeline article[data-trip-date="2026-06-26"] {
+    --card-art: url("assets/generated-card-bg-freeroll.jpg");
+  }
+
+  .timeline article[data-trip-date="2026-06-27"] {
+    --card-art: url("assets/generated-sphere-poker-card.png");
+  }
+
+  .timeline article[data-trip-date="2026-06-28"] {
+    --card-art: url("assets/airplane-cabin.jpg");
+  }
+
+  .timeline article[data-trip-date] {
+    background-image:
+      linear-gradient(90deg, rgba(255,253,248,.98) 0%, rgba(255,253,248,.94) 42%, rgba(255,253,248,.68) 64%, rgba(255,253,248,.16) 100%),
+      linear-gradient(135deg, rgba(255,253,248,.86), rgba(246,239,225,.34)),
+      var(--card-art);
+    background-position: center, center, right center;
+    background-repeat: no-repeat;
+    background-size: cover, cover, cover;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .timeline article[data-trip-date] {
+    background-image:
+      linear-gradient(90deg, rgba(255,253,248,.98) 0%, rgba(255,253,248,.94) 46%, rgba(255,253,248,.58) 68%, rgba(255,253,248,.08) 100%),
+      linear-gradient(135deg, rgba(255,253,248,.78), rgba(246,239,225,.22)),
+      var(--card-art);
+    background-position: center, center, right center;
+  }
+}
+
+/* Flight card art pass */
+@media screen {
+  .flight-grid .flight-card:nth-child(1) {
+    --card-art: url("assets/las-vegas-airport-checkin.jpg");
+  }
+
+  .flight-grid .flight-card:nth-child(2) {
+    --card-art: url("assets/airplane-cabin.jpg");
+  }
+
+  .flight-grid .entry-card {
+    --card-art: url("assets/generated-card-bg-flight.jpg");
+  }
+}
